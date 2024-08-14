@@ -44,3 +44,19 @@ function InicioSesion() {
 }
 
 // Final de login
+
+// Animación Menu
+// CREADOR ORIGINAL https://codepen.io/nourabusoud/pen/ypZzMM*/ 
+var animateSubmenu = function(e) {
+    e.target.classList.remove('animate');
+    e.target.classList.add('animate');
+    setTimeout(function(){
+        e.target.classList.remove('animate');
+    }, 700);
+};
+
+var bubblySubmenus = document.getElementsByClassName("bubbly-submenu");
+
+for (var i = 0; i < bubblySubmenus.length; i++) {
+    bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
+}
