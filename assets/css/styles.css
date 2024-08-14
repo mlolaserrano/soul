@@ -1,0 +1,460 @@
+
+/* Estilos generales */
+
+:root {
+    --text-color: #1a1a1a;
+    --text-color2: #242424;
+    --text-color3: #4e4e4e;
+    --text-color4: #f9f9f9;
+    --text-color5: #e4e4e4;
+    --text-color6: #c5c5c5;
+    --title-color: #5dc1b9;
+    --title-color2: #9ce0db;
+    --title-color3: #caebe8;
+    --button-color: #81638b;
+    --button-color2: #b695c0;
+    --button-color3: #dac9df;
+    --acent-color: #f9d99a;
+    --acent-color2: #fbe6bc;
+
+}
+
+
+footer {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* LOG IN */
+
+.bg {
+    background-image: url(/images/bg.svg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+.bg2 {
+    background-image: url(/images/bg2.svg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+
+.pagina-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.contenedor-login {
+    display: flex;
+    max-width: 900px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.lado-izquierdo-login {
+    flex: 1;
+    background-image: url('/images/login\ paciente.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.lado-izquierdo-login2 {
+    flex: 1;
+    background-image: url('/images/loginprof.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.lado-derecho-login {
+    flex: 1;
+    padding: 20px;
+}
+
+.lado-derecho-login h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lado-derecho-login h3 {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--button-color2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    color: var(--text-color4);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: var(--button-color2);
+}
+
+.login-link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+
+    /*MENU*/
+
+
+    
+    /*CHAT*/
+  
+    #chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .chat-ventana {
+      position: fixed;
+      bottom: 180px;
+      right: 20px;
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .hidden {
+      display: none;
+  }
+  
+  .chat-header {
+      background-color: var(--title-color2);
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+  
+  .chat-body {
+      padding: 10px;
+      flex-grow: 1;
+      overflow-y: auto;
+      background-color: white;
+  }
+  
+  .chat-footer {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  
+  .chat-footer input {
+      flex-grow: 1;
+      padding: 5px;
+      margin-right: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+  }
+  
+  .chat-footer button {
+      padding: 5px 10px;
+      background-color: var(--title-color);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .cerrar{
+    border: none;
+    background-color: var(--title2-color);
+  }
+  
+  .mensaje-enviado {
+    color: var(--title-color); 
+    background-color: #f0f0f0; 
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .footer{
+    text-align: center;
+  }
+  
+  
+   
+
+
+
+/* HOME PACIENTE */
+
+    
+    .bienvenida {
+      margin: 25px;
+      padding: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    
+    .saludo {
+      color: var(--title-color);
+      font-size: 35px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+      margin: 5px;
+      padding: 5px;
+      width: 360px;
+    }
+    
+    .pregunta {
+      color: var(--text-color2);
+      font-size: 25px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      margin: 5px;
+      padding: 5px;
+    }
+    
+  
+    
+    .columnas-section {
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+  
+    
+    .ctitulo {
+      color: var(--title-color2);
+      font-size: 25px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .bcalendario {
+      border-radius: 25px;
+      background-color: var(--button-color3);
+      border-color: var(--button-color3);
+      border-style: solid;
+      width: 150px;
+    }
+    
+    .bcalendario:hover {
+      background-color: var(--button-color2);
+      border-color: var(--button-color2);
+    }
+    
+    .tnotas {
+      color: var(--title-color2);
+      font-size: 25px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .postit {
+      background-color: var(--title-color3);
+      border: 1px solid var(--title-color3);
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    
+    .contenedorpostit {
+      column-count: 2;
+      text-align: justify;
+  
+    }
+    
+    .desafios {
+      color: var(--title-color2);
+      font-size: 20px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .desafios {
+      color: var(--title-color2);
+      font-size: 20px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .barradeprogreso {
+      width: 50%;
+      height: 20px;
+      border-radius: 50px;
+      background-image: linear-gradient(
+        to right,
+        #81638b 0%,
+        #81638b 33%,
+        #b695c0 33%,
+        #b695c0 66%,
+        #d9d9d9 66%,
+        #d9d9d9 100%
+      );
+    }
+    
+    .bprogreso {
+      border-radius: 25px;
+      background-color: var(--button-color3);
+      border-color: var(--button-color3);
+      border-style: solid;
+      width: 350px;
+    }
+    
+    .bprogreso:hover {
+      background-color: var(--button-color2);
+      border-color: var(--button-color2);
+    }
+  
+    .arriba{
+      column-count: 2;
+      column-gap: 450px;
+  
+    }
+  
+    .mis-notas {
+      margin: 25px;
+      padding: 25px;
+  
+    }
+  
+    
+  
+  .desaf{
+      margin: 50px;
+      padding: 50px;
+  }
+  
+  .tipografprog{
+    color: var(--text-color);
+  }
+  
+  .cajadesafios{
+    margin-top: 25px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+  
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+  
+    .bienvenida {
+      margin: 25px;
+      padding: 25px;
+    }
+  
+  
+    
+    .calendario-index {
+      margin: 25px;
+      padding: 25px;
+   
+    }
+    
+  
+    
+    .mis-notas {
+      margin: 25px;
+      padding: 25px;
+    }
+    
+  
+    
+    .desafios {
+      color: var(--title-color2);
+      font-size: 20px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+      margin: 50px;
+      padding: 50px;
+    }
+    
+    .desafios {
+      color: var(--title-color2);
+      font-size: 30px;
+      font-family: 'Coustard', serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .barradeprogreso {
+      width: 100%;
+      height: 20px;
+      border-radius: 50px;
+      background-image: linear-gradient(
+        to right,
+        #81638b 0%,
+        #81638b 33%,
+        #b695c0 33%,
+        #b695c0 66%,
+        #d9d9d9 66%,
+        #d9d9d9 100%
+      );
+    }
+    
+    .bprogreso {
+      border-radius: 25px;
+      background-color: var(--button-color3);
+      border-color: var(--button-color3);
+      border-style: solid;
+      width: 100%;
+    }
+    
+  }
