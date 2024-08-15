@@ -1,41 +1,45 @@
-
 /* Estilos generales */
 
 :root {
-    --text-color: #1a1a1a;
-    --text-color2: #242424;
-    --text-color3: #4e4e4e;
-    --text-color4: #f9f9f9;
-    --text-color5: #e4e4e4;
-    --text-color6: #c5c5c5;
-    --title-color: #5dc1b9;
-    --title-color2: #9ce0db;
-    --title-color3: #caebe8;
-    --button-color: #81638b;
-    --button-color2: #b695c0;
-    --button-color3: #dac9df;
-    --button-color4: #4b9986;
-    --acent-color: #f9d99a;
-    --acent-color2: #fbe6bc;
+  --text-color: #1a1a1a;
+  --text-color2: #242424;
+  --text-color3: #4e4e4e;
+  --text-color4: #f9f9f9;
+  --text-color5: #e4e4e4;
+  --text-color6: #c5c5c5;
+  --title-color: #5dc1b9;
+  --title-color2: #9ce0db;
+  --title-color3: #caebe8;
+  --button-color: #81638b;
+  --button-color2: #b695c0;
+  --button-color3: #dac9df;
+  --button-color4: #4b9986;
+  --acent-color: #f9d99a;
+  --acent-color2: #fbe6bc;
 
 }
 
-p{
+body {
+  background-color: rgb(254, 255, 255);
+}
+
+p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 
   font-size: 19px;
 }
+
 footer {
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 
-p ul li i{
+p ul li i {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -52,462 +56,527 @@ p ul li i{
   margin: -25px 0 0 -25px;
   border: 6px solid var(--title-color3);
   border-radius: 50%;
-  border-top: 6px solid var(--title-color); 
+  border-top: 6px solid var(--title-color);
   animation: spin 1s linear infinite;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
 /* LOG IN */
 
 .bg {
-    background-image: url(/images/bg.svg);
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
+  background-image: url(/images/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .bg2 {
-    background-image: url(/images/bg2.svg);
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
+  background-image: url(/images/bg2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
 
 .pagina-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
 }
 
 .contenedor-login {
-    display: flex;
-    max-width: 900px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    overflow: hidden;
+  display: flex;
+  max-width: 900px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .lado-izquierdo-login {
-    flex: 1;
-    background-image: url('/images/login\ paciente.png');
-    background-size: cover;
-    background-position: center;
+  flex: 1;
+  background-image: url('/images/login\ paciente.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .lado-izquierdo-login2 {
-    flex: 1;
-    background-image: url('/images/loginprof.png');
-    background-size: cover;
-    background-position: center;
+  flex: 1;
+  background-image: url('/images/loginprof.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .lado-derecho-login {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
 .lado-derecho-login h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .lado-derecho-login h3 {
-    font-size: 16px;
-    color: var(--text-color);
-    margin-bottom: 20px;
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 20px;
 }
 
 .login-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid var(--button-color2);
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-    color: var(--text-color);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--button-color2);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .login-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--button-color);
-    color: var(--text-color4);
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--title-color);
+  color: var(--text-color4);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .login-button:hover {
-    background-color: var(--button-color2);
+  background-color: var(--button-color2);
 }
 
 .login-link {
-    color: var(--link-color);
-    text-decoration: none;
+  color: var(--button-color4);
+  text-decoration: none;
 }
 
 .login-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.s-letra {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/*MENU*/
+
+.sin-formato {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sin-formato:visited,
+.sin-formato:focus,
+.sin-formato:hover,
+.sin-formato:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 
-    /*MENU*/
+.navegacion {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 25px;
+  margin: 25px;
+}
 
-    .sin-formato {
-      text-decoration: none; 
-      color: inherit; 
-      margin-left: 20px;  
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-  }
-  
-  .sin-formato:visited, .sin-formato:focus, .sin-formato:hover, .sin-formato:active {
-      color: inherit; 
-      text-decoration: none; 
-  }
-  
+.navegacion .logo {
+  margin-right: auto;
+}
 
-    .navegacion {  
-      display: flex;              
-      justify-content: flex-end; 
-      list-style-type: none;     
-      padding: 25px;                
-      margin: 25px;                  
-  }  
-  
-  .navegacion .logo {  
-      margin-right: auto;        
-  }  
-  
-  .navegacion li {  
-    margin-left: 20px;  
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+.navegacion li {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-}  
+}
 
-.navegacion i {  
-    font-size: 24px; 
-    width: 32px; 
-    height: 32px; 
-    display: inline-flex; 
-    align-items: center;  
-    justify-content: center; 
-}  
+.navegacion i {
+  font-size: 24px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  /*Submenu*/
-    /*DISEÑO DE ANIMACION ADAPTADO: CREADOR ORIGINAL https://codepen.io/nourabusoud/pen/ypZzMM*/
-  .submenu {
-    background-color: var(--title-color3);
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #AEE0DC;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 300px;
+  position: relative;
+}
+
+.buscador1 {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.buscador1::placeholder {
+  color: #AEE0DC;
+}
+
+.search-container .fi {
+  position: absolute;
+  right: 10px;
+  color: #AEE0DC;
+  font-size: 16px;
+}
+
+.buscador2 {
+  display: none;
+
+}
+
+.pregunta,
+.usuario,
+.salir {
+  color: var(--title-color);
+}
+
+/*Submenu*/
+/*DISEÑO DE ANIMACION ADAPTADO: CREADOR ORIGINAL https://codepen.io/nourabusoud/pen/ypZzMM*/
+.submenu {
+  background-color: var(--title-color3);
 }
 
 .submenu-list {
-    list-style-type: none;
-    margin: 25px;
-    padding: 25px;
-}
-
-.submenu-list li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.submenu-list li a {
-    text-decoration: none;
-    color: #333;
-    margin: 10px;
-    padding: 10px;
-    position: relative;
-    display: inline-block;
-    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-    
-}
-
-.bubbly-submenu:before, .bubbly-submenu:after {
-    position: absolute;
-    content: '';
-    display: block;
-    width: 140%;
-    height: 100%;
-    left: -20%;
-    z-index: -1000;
-    transition: all ease-in-out 0.5s;
-    background-repeat: no-repeat;
-}
-
-.bubbly-submenu:before {
-    display: none;
-    top: -75%;
-    background-image:  
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, transparent 20%, var(--button-color4) 20%, transparent 30%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%), 
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
-    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-}
-
-.bubbly-submenu:after {
-    display: none;
-    bottom: -75%;
-    background-image:  
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%), 
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-        radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
-    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
-}
-
-.bubbly-submenu:hover {
-    transform: scale(1.05);
-    
-}
-
-.bubbly-submenu.animate:before {
-    display: block;
-    animation: topBubbles ease-in-out 0.75s forwards;
-}
-
-.bubbly-submenu.animate:after {
-    display: block;
-    animation: bottomBubbles ease-in-out 0.75s forwards;
-}
-
-@keyframes topBubbles {
-    0% {
-        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
-    }
-    50% {
-        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-    }
-    100% {
-        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-    }
-}
-
-@keyframes bottomBubbles {
-    0% {
-        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
-    }
-    50% {
-        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
-    }
-    100% {
-        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-    }
-}
-    /*CHAT*/
-  
-    #chat {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 10px 20px;
-      background-color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-  }
-  
-  .chat-ventana {
-      position: fixed;
-      bottom: 180px;
-      right: 20px;
-      width: 300px;
-      border-radius: 5px;
-          display: flex;
-      flex-direction: column;
-  }
-  
-  .hidden {
-      display: none;
-  }
-  
-  .chat-header {
-      background-color: var(--title-color2);
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-  }
-  
-  .chat-body {
-      padding: 10px;
-      flex-grow: 1;
-      overflow-y: auto;
-      background-color: white;
-  }
-  
-  .chat-footer {
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-  }
-  
-  .chat-footer input {
-      flex-grow: 1;
-      padding: 5px;
-      margin-right: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-  }
-  
-  .chat-footer button {
-      padding: 5px 10px;
-      background-color: var(--title-color);
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-  }
-  .cerrar{
-    border: none;
-    background-color: var(--title2-color);
-  }
-  
-  .mensaje-enviado {
-    color: var(--title-color); 
-    background-color: #f0f0f0; 
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px 0;
-  }
-  
-  .footer{
-    text-align: center;
-  }
-  
-/* CALENDARIO */
-
-  .calendar {
-    max-width: 300px;
-    margin: 30px;
-    background: linear-gradient(180deg, #fdca60 0%, rgba(93, 193, 185, 0.5) 100%);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    border-radius: 15px;
-  }
-  
-  .Mes {
-    font-weight: 700;
-    font-size: 20px;
-  }
-  
-  .month {
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  .days {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-  }
-  
-  .day {
-    position: relative;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .day .color {
-    position: absolute;
-    display: none;
-    height: 5px;
-    width: 5px;
-    top: 16px;
-    left: 32px;
-    border-radius: 100%;
-  }
-  
-  .BotonesCalendario {
-    background-color: #aee0dc;
-    border-radius: 15px;
-    margin: 5px;
-  }
-  
-  .BotonConfirm {
-    background-color: white;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  
-  
-  #status {
-    background-color: #c6e4e2;
-    padding: 15px;
-    position: absolute;
-    display: none;
-    border-radius: 20px;
-  }
-  
-  #status::before {
-    position: absolute;
-    content: '';
-    display: none;
-    left: calc(100% / 2 - 5px);
-    top: -5px;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    transform: rotate(45deg);
-  }
-/* FIN DE CALENDARIO */
-
-/* HOME PACIENTE */
-
-.s-img{
+  list-style-type: none;
   margin: 25px;
   padding: 25px;
 }
 
-.s-presentacion{
+.submenu-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.submenu-list li a {
+  text-decoration: none;
+  color: #333;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+}
+
+.bubbly-submenu:before,
+.bubbly-submenu:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+
+.bubbly-submenu:before {
+  display: none;
+  top: -75%;
+  background-image:
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, var(--button-color4) 20%, transparent 30%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.bubbly-submenu:after {
+  display: none;
+  bottom: -75%;
+  background-image:
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
+    radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.bubbly-submenu:hover {
+  transform: scale(1.05);
+
+}
+
+.bubbly-submenu.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.bubbly-submenu.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+/*CHAT*/
+
+#chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-ventana {
+  position: fixed;
+  bottom: 180px;
+  right: 20px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.chat-header {
+  background-color: var(--title-color2);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.chat-body {
+  padding: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.chat-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.chat-footer input {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chat-footer button {
+  padding: 5px 10px;
+  background-color: var(--title-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cerrar {
+  border: none;
+  background-color: var(--title2-color);
+}
+
+.mensaje-enviado {
+  color: var(--title-color);
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* CALENDARIO */
+
+.calendar {
+  max-width: 300px;
+  margin: 30px;
+  background: linear-gradient(180deg, #fdca60 0%, rgba(93, 193, 185, 0.5) 100%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  border-radius: 15px;
+}
+
+.Mes {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.month {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.day .color {
+  position: absolute;
+  display: none;
+  height: 5px;
+  width: 5px;
+  top: 16px;
+  left: 32px;
+  border-radius: 100%;
+}
+
+.BotonesCalendario {
+  background-color: #aee0dc;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.BotonConfirm {
+  background-color: white;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+#status {
+  background-color: #c6e4e2;
+  padding: 15px;
+  position: absolute;
+  display: none;
+  border-radius: 20px;
+}
+
+#status::before {
+  position: absolute;
+  content: '';
+  display: none;
+  left: calc(100% / 2 - 5px);
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+/* FIN DE CALENDARIO */
+
+/* HOME PACIENTE */
+
+.s-img {
+  margin: 25px;
+  padding: 25px;
+}
+
+.s-presentacion {
   display: flex;
   align-items: center;
 }
 
-.s-dividir{
+.s-dividir {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .s-centrar {
   display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  text-align: center;     
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -529,23 +598,27 @@ p ul li i{
 }
 
 .s-container {
-  display: flex;         
-  gap: 20px;             
-  flex-wrap: wrap;      
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .s-section-content {
-  flex: 1;               
-  max-width: 50%;            
- 
+  flex: 1;
+  max-width: 50%;
+
 }
 
 .s-mis-notas {
-  flex: 1;               
-  max-width: 50%;       
+  flex: 1;
+  max-width: 50%;
+
 
 }
 
+.s-notitas {
+  margin-top: 25px;
+}
 
 .s-columnas {
   display: flex;
@@ -553,13 +626,31 @@ p ul li i{
   flex-wrap: wrap;
   width: 125%;
   margin-left: 15%;
- 
+
 }
 
-   
+
 .s-centrar {
   display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  text-align: center;     
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.s-titulo3 {
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+.s-agregar {
+
+  align-items: center;
+
+
+  color: #5dc1b9;
+  font-size: 35px;
+
+
 }
