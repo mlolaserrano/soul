@@ -44,6 +44,9 @@
 
     <!--Usuario-->
      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
+
+      <!--Signo mas, agregar-->
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
  
     
 
@@ -67,7 +70,9 @@
               </li>  
               <li class="pregunta"><i class="fi fi-tr-seal-question"></i></li>  
               <li class="usuario"><i class="fi fi-tr-man-head"></i></li>  
-              <li class="salir"><i class="fi fi-ts-sign-out-alt"></i></li>  
+              <a href="/index.html" class="sin-formato">
+                <li class="salir"><i class="fi fi-ts-sign-out-alt"></i></li>
+             </a> 
           </ul>  
       </nav>  
       <div class="submenu">
@@ -81,30 +86,42 @@
     
   </header>
 
+ <!--Carga-->
+<section>
+  <div id="spinner" class="spinner" style="display: none;"></div>
+</section>
+ <!--Fin de carga-->
 
+ <main>
+  <section class="s-presentacion"> 
+    <img src="/images/Avatar.png" alt="" style="width: 400px;" class="s-img">
+    <div class="s-dividir"> 
+    <h1>¡Buenos Días, Lola!</h1>
+    <br>
+    <h3>¿Que tal tu dia? <i class="fi fi-tr-add"></i></h3>
+</div>
+  </section>
+ </main>
 
-       
+ <footer>
+  <button id="chat"><img src="/images/Chat.png" width="150"></button>
+  <div id="chatVentana" class="chat-ventana hidden">
+      <div class="chat-header">
+          <span>Chat</span>
+          <button id="cerrar" class="cerrar">X</button>
+      </div>
+      <div class="chat-body" id="chatBody">
+          <p>¡Hola Juana! ¿En que te puedo ayudar?</p>
+      </div>
+      <div class="chat-footer">
+          <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
+          <button id="enviar">Enviar</button>
+      </div>
+  </div>
+  <hr>
+  <p class="footer">&copy; Marina Duarte - Lara Olcesi - Lola Serrano </p>
+</footer>
 
-
-
-      <footer>
-        <button id="chat"><img src="/images/Chat.png" width="150"></button>
-        <div id="chatVentana" class="chat-ventana hidden">
-            <div class="chat-header">
-                <span>Chat</span>
-                <button id="cerrar" class="cerrar">X</button>
-            </div>
-            <div class="chat-body" id="chatBody">
-                <p>¡Hola Juana! ¿En que te puedo ayudar?</p>
-            </div>
-            <div class="chat-footer">
-                <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
-                <button id="enviar">Enviar</button>
-            </div>
-        </div>
-        <hr>
-        <p class="footer">&copy; Marina Duarte - Lara Olcesi - Lola Serrano </p>
-    </footer>
 
  
       <script src="/assets/js/scripts.js"></script>

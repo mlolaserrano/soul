@@ -20,7 +20,12 @@
 
 }
 
+p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 
+  font-size: 19px;
+}
 footer {
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
@@ -36,6 +41,27 @@ p ul li i{
   font-style: normal;
   font-size: 15px;
 }
+
+/* SPINNER (PANTALLA DE CARGA) */
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -25px 0 0 -25px;
+  border: 6px solid var(--title-color3);
+  border-radius: 50%;
+  border-top: 6px solid var(--title-color); 
+  animation: spin 1s linear infinite;
+  z-index: 1000; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 
 /* LOG IN */
 
@@ -140,6 +166,21 @@ p ul li i{
 
     /*MENU*/
 
+    .sin-formato {
+      text-decoration: none; 
+      color: inherit; 
+      margin-left: 20px;  
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+  }
+  
+  .sin-formato:visited, .sin-formato:focus, .sin-formato:hover, .sin-formato:active {
+      color: inherit; 
+      text-decoration: none; 
+  }
+  
+
     .navegacion {  
       display: flex;              
       justify-content: flex-end; 
@@ -157,6 +198,7 @@ p ul li i{
     display: flex; 
     align-items: center; 
     justify-content: center; 
+
 }  
 
 .navegacion i {  
@@ -364,240 +406,97 @@ p ul li i{
     text-align: center;
   }
   
+/* CALENDARIO */
+
+  .calendar {
+    max-width: 300px;
+    margin: 30px;
+    background: linear-gradient(180deg, #fdca60 0%, rgba(93, 193, 185, 0.5) 100%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-radius: 15px;
+  }
   
-   
-
-
+  .Mes {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .month {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .day .color {
+    position: absolute;
+    display: none;
+    height: 5px;
+    width: 5px;
+    top: 16px;
+    left: 32px;
+    border-radius: 100%;
+  }
+  
+  .BotonesCalendario {
+    background-color: #aee0dc;
+    border-radius: 15px;
+  }
+  
+  .BotonConfirm {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  
+  
+  #status {
+    background-color: #c6e4e2;
+    padding: 15px;
+    position: absolute;
+    display: none;
+    border-radius: 20px;
+  }
+  
+  #status::before {
+    position: absolute;
+    content: '';
+    display: none;
+    left: calc(100% / 2 - 5px);
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(45deg);
+  }
+/* FIN DE CALENDARIO */
 
 /* HOME PACIENTE */
 
-    
-    .bienvenida {
-      margin: 25px;
-      padding: 25px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    
-    .saludo {
-      color: var(--title-color);
-      font-size: 35px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-      margin: 5px;
-      padding: 5px;
-      width: 360px;
-    }
-    
-    .pregunta {
-      color: var(--text-color2);
-      font-size: 25px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      margin: 5px;
-      padding: 5px;
-    }
-    
-  
-    
-    .columnas-section {
-      display: flex;
-      justify-content: flex-start;
-    }
-    
-  
-    
-    .ctitulo {
-      color: var(--title-color2);
-      font-size: 25px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .bcalendario {
-      border-radius: 25px;
-      background-color: var(--button-color3);
-      border-color: var(--button-color3);
-      border-style: solid;
-      width: 150px;
-    }
-    
-    .bcalendario:hover {
-      background-color: var(--button-color2);
-      border-color: var(--button-color2);
-    }
-    
-    .tnotas {
-      color: var(--title-color2);
-      font-size: 25px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .postit {
-      background-color: var(--title-color3);
-      border: 1px solid var(--title-color3);
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-      padding: 10px;
-      width: 200px;
-      height: 200px;
-      justify-content: space-between;
-      margin-bottom: 20px;
-      box-sizing: border-box;
-    }
-    
-    .contenedorpostit {
-      column-count: 2;
-      text-align: justify;
-  
-    }
-    
-    .desafios {
-      color: var(--title-color2);
-      font-size: 20px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .desafios {
-      color: var(--title-color2);
-      font-size: 20px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .barradeprogreso {
-      width: 50%;
-      height: 20px;
-      border-radius: 50px;
-      background-image: linear-gradient(
-        to right,
-        #81638b 0%,
-        #81638b 33%,
-        #b695c0 33%,
-        #b695c0 66%,
-        #d9d9d9 66%,
-        #d9d9d9 100%
-      );
-    }
-    
-    .bprogreso {
-      border-radius: 25px;
-      background-color: var(--button-color3);
-      border-color: var(--button-color3);
-      border-style: solid;
-      width: 350px;
-    }
-    
-    .bprogreso:hover {
-      background-color: var(--button-color2);
-      border-color: var(--button-color2);
-    }
-  
-    .arriba{
-      column-count: 2;
-      column-gap: 450px;
-  
-    }
-  
-    .mis-notas {
-      margin: 25px;
-      padding: 25px;
-  
-    }
-  
-    
-  
-  .desaf{
-      margin: 50px;
-      padding: 50px;
-  }
-  
-  .tipografprog{
-    color: var(--text-color);
-  }
-  
-  .cajadesafios{
-    margin-top: 25px;
-  }
-  
-  @media only screen and (max-width: 768px) {
-  
-  
-  }
-  
-  
-  @media only screen and (min-width: 1200px) {
-  
-    .bienvenida {
-      margin: 25px;
-      padding: 25px;
-    }
-  
-  
-    
-    .calendario-index {
-      margin: 25px;
-      padding: 25px;
-   
-    }
-    
-  
-    
-    .mis-notas {
-      margin: 25px;
-      padding: 25px;
-    }
-    
-  
-    
-    .desafios {
-      color: var(--title-color2);
-      font-size: 20px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-      margin: 50px;
-      padding: 50px;
-    }
-    
-    .desafios {
-      color: var(--title-color2);
-      font-size: 30px;
-      font-family: 'Coustard', serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
-    .barradeprogreso {
-      width: 100%;
-      height: 20px;
-      border-radius: 50px;
-      background-image: linear-gradient(
-        to right,
-        #81638b 0%,
-        #81638b 33%,
-        #b695c0 33%,
-        #b695c0 66%,
-        #d9d9d9 66%,
-        #d9d9d9 100%
-      );
-    }
-    
-    .bprogreso {
-      border-radius: 25px;
-      background-color: var(--button-color3);
-      border-color: var(--button-color3);
-      border-style: solid;
-      width: 100%;
-    }
-    
-  }
+.s-img{
+  margin: 25px;
+  padding: 25px;
+}
+
+.s-presentacion{
+  display: flex;
+  align-items: center;
+}
+
+.s-dividir{
+  display: flex;
+  flex-direction: column; 
+}
