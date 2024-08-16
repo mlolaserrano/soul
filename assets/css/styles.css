@@ -904,7 +904,7 @@ margin-left: -50px;
   font-size: 26px;
  }
  
- .L-Boton{
+.L-Boton{
   width: 30%;
   height: 50px;
   background: #b695c0;
@@ -915,12 +915,24 @@ margin-left: -50px;
   font-size: 15px;
  }
  
+.L-Imagenes{
+  height: 300px;
+  width: 300px;
+ }
+ 
  .L-modal-content{
    background-color: #B3A5D2;
    text-align:justify;
+   border-radius: 5px;
  }
- 
- .L-Imagenes{
-height: 300px;
-width: 300px;
+
+ .L-btnfin{
+  background: #b08abb;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 17px;
+  width: 30%;
+  height: 50px;
  }
