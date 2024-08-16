@@ -921,9 +921,10 @@ margin-left: -50px;
  }
  
  .L-modal-content{
-   background-color: #B3A5D2;
+   background-color: #c7bddd;
    text-align:justify;
    border-radius: 5px;
+   color: rgb(0, 0, 0);
  }
 
  .L-btnfin{
