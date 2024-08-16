@@ -897,3 +897,26 @@ margin-left: -50px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+/*Actividades General*/
+
+.L-Titulo{
+  font-size: 26px;
+ }
+ 
+ .L-Boton{
+  width: 30%;
+  height: 50px;
+  background: #b695c0;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 15px;
+ }
+ 
+ .L-modal-content{
+   background-color: #B3A5D2;
+   text-align:justify;
+ }
+ 
