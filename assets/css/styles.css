@@ -853,3 +853,33 @@ margin-left: -50px;
   height: auto;
   border-radius: 15px;
 }
+
+
+.M-BotonesA {
+  display: flex;
+  justify-content: center;
+}
+
+
+.M-BotonesCajita {
+  font-size: small;
+  background: #b695c0;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+
+.M-BotonesCajita:hover,
+.M-BotonesCajita:focus,
+.M-BotonesCajita:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
