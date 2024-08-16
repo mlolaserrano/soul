@@ -797,3 +797,22 @@ margin-left: -50px;
   margin: 5px;
  
 }
+
+
+/*MI ACOMPAÑANTE*/
+.M-MiAcompañante {
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+}
+
+
+.M-foto {
+  margin: auto;
+}
+
+
+.M-TextoMiAcompañante {
+  font-size: small;
+  margin: auto;
+}
