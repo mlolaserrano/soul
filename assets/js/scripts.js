@@ -35,7 +35,7 @@ function InicioSesion() {
 
 
                 // Redirigir al administrador
-                window.location.href = '/(adm)home.html';
+                window.location.href = '/pages/admin/(adm)home.html';
             }
             return;
         }
