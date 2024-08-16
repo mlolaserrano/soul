@@ -818,6 +818,20 @@ margin-left: -50px;
 }
 
 
+.M-Graciela {
+  font-weight: 300;
+  font-size: large;
+}
+
+
+.M-TextoMini {
+  font-weight: 200;
+  color: gray;
+  font-size: small;
+}
+
+
+
 .M-CajasAcompañante {
   display: flex;
   justify-content: center;
