@@ -937,3 +937,22 @@ margin-left: -50px;
   width: 30%;
   height: 50px;
  }
+
+
+/*Administrafor -  Home */
+
+.s-admi {
+  margin: 25px;
+  border-right: 1px solid #1a1a1a;
+}
+
+.btn-secondary.dropdown-toggle {
+  background-color: var(--title-color2);
+  border-color: #5dc1b9;
+  color: #1a1a1a;
+}
+
+.btn-secondary.dropdown-toggle:hover{
+background-color: var(--acent-color);
+border-color: #f9d99a;
+}
