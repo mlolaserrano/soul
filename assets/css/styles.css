@@ -50,6 +50,18 @@ p ul li i {
   font-size: 15px;
 }
 
+h1{
+  font-size: 35px;
+  color: var(--button-color4);
+  font-family: "Coustard", serif;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+}
+
 /* SPINNER (PANTALLA DE CARGA) */
 .spinner {
   position: fixed;
@@ -570,8 +582,8 @@ p ul li i {
   gap: 20px;
 }
 .s-articulo {
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 105px;
+  margin-left: 55px;
   border-radius: 8px;
   text-align:  left;
   
@@ -664,6 +676,20 @@ p ul li i {
   margin-bottom: 20px;
 
 }
+
+.s-postit2 {
+  background-color: #b5dfdd;
+  border: 1px solid var(--title-color3);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+
+}
+
+
+
 
 .s-contenedorpostit {
   column-count: 2;
@@ -775,6 +801,7 @@ margin-left: -50px;
 .s-lista{
   margin: 10px;
   padding: 10px;
+ 
 }
 
 .s-lista5 i,
@@ -784,6 +811,7 @@ margin-left: -50px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 5px;
+    font-size: 15px;
 }
 
 .s-lista5 p {
