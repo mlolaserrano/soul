@@ -12,5 +12,4 @@
         <button id="enviar">Enviar</button>
       </div>
     </div>
-    <hr>
-    <p class="footer">&copy; Marina Duarte - Lara Olcesi - Lola Serrano </p>
+    
