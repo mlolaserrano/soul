@@ -1,10 +1,1 @@
-{
-    "projectId": "prj_lODDXgH7I3byVhiWBoMVVMbkUtCS",
-    "orgId": "team_BFsOMG25yjcmUaDNq75IrO4x",
-    "functions": {
-      "soul/index.php": {
-        "runtime": "vercel-php@0.6.0"
-      }
-    }
-  }
-  
+{"projectId":"prj_lODDXgH7I3byVhiWBoMVVMbkUtCS","orgId":"team_BFsOMG25yjcmUaDNq75IrO4x"}
