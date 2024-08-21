@@ -294,7 +294,7 @@
 </section>
        
       <footer>
-       <?php include "/componentes/footer.php"?>
+       <?php include "/componentes/footer.php";?>
     </footer>
 
  
