@@ -30,12 +30,12 @@ function InicioSesion() {
 
 
                 // Redirigir al pasajero
-                window.location.href = '/pages/home.html';
+                window.location.href = '/pages/home.php';
             } else if (usuarios[index].rol == 2) {
 
 
                 // Redirigir al administrador
-                window.location.href = '/pages/admin/(adm)home.html';
+                window.location.href = '/pages/admin/(adm)home.php';
             }
             return;
         }
