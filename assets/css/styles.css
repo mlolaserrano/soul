@@ -1013,3 +1013,36 @@ border-color: #f9d99a;
   font-style: italic;
   
 }
+
+
+/*M-Recompensas*/
+
+.M-Recompensas {
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+}
+
+
+.M-fotoRecompensas {
+  margin: auto;
+}
+
+
+.M-TextoRecompensas {
+  font-size: small;
+  margin: auto;
+}
+
+
+.M-TextoReclamar {
+  font-weight: 300;
+  font-size: large;
+}
+
+
+.M-TextoRe {
+  font-weight: 200;
+  color: gray;
+  font-size: small;
+}
