@@ -990,3 +990,26 @@ margin-left: -50px;
 background-color: var(--acent-color);
 border-color: #f9d99a;
 }
+
+/*Acompañante - paciente */
+.s-bgc{
+  background-color: #F7F7F7;
+}
+
+.s-cuadrotexto {  
+  width: 75%; 
+  background-color: var(--title-color3);
+  padding: 10%; 
+  margin-left: 10%;   
+  margin-top: 15%;
+  border-radius: 3%; 
+  text-align: left;
+
+} 
+
+.s-textoa{
+  font-size: 15px;
+  color: var(--text-color3);
+  font-style: italic;
+  
+}
