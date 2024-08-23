@@ -1181,30 +1181,3 @@ height: auto;
 border-radius: 15px;
 
 }
-
-.Caja-canjes{
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.M-BotonesCanje{
-  font-size: small;
-  background: #b695c0;
-  width: 100px;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  border-radius: 20px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-.M-BotonesCanje:hover,
-.M-BotonesCanje:focus,
-.M-BotonesCanje:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
