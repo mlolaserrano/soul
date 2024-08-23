@@ -1177,5 +1177,7 @@ background-color: #DAC9DF;
 }
 
 .Caja-canjes{
-  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
