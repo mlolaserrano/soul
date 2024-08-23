@@ -1175,9 +1175,11 @@ border-color: #f9d99a;
 .canjes{
 background-color: #DAC9DF;
 margin: 15px;
-padding: 15px;
 width: 200px;
 height: auto;
 border-radius: 15px;
+display: flex;
+justify-content: center;
+padding: 20px;
 
 }
