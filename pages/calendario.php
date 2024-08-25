@@ -12,7 +12,7 @@
       name="keywords"
       content="Bienestar, salud, tranquilidad, soledad, felicidad, acompañante, solo, sola, triste, Ayuda emocional, calendario emocional, beneficios, regalos, estar mejor"
     />
-    <link rel="canonical" href=".../soul/home.html" />
+    <link rel="canonical" href=".../soul/home.php" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Soul" />
     <meta name="publisher" content="Marina Duarte, Lara Olcesi, Lola Serrano" />
@@ -62,7 +62,7 @@
       <nav>  
           <ul class="navegacion">  
             <li class="logo">  
-              <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
+              <a href="/pages/home.php"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
             </li> 
               <li class="busqueda">  
                   <div class="search-container">  
@@ -72,17 +72,17 @@
               </li>  
               <li class="pregunta"><i class="fi fi-tr-seal-question"></i></li>  
               <li class="usuario"><i class="fi fi-tr-man-head"></i></li>  
-              <a href="/index.html" class="sin-formato">
+              <a href="/index.php" class="sin-formato">
                 <li class="salir"><i class="fi fi-ts-sign-out-alt"></i></li>
              </a>
           </ul>  
       </nav>  
       <div class="submenu">
         <ul class="submenu-list">
-            <li><a href="/pages/calendario.html" class="bubbly-submenu">Calendario</a></li>
-            <li><a href="/pages/actividades.html" class="bubbly-submenu">Actividades</a></li>
-            <li><a href="/pages/acompañante.html" class="bubbly-submenu">Mi Acompañante</a></li>
-            <li><a href="/pages/recompensa.html" class="bubbly-submenu">Recompensas</a></li>
+            <li><a href="/pages/calendario.php" class="bubbly-submenu">Calendario</a></li>
+            <li><a href="/pages/actividades.php" class="bubbly-submenu">Actividades</a></li>
+            <li><a href="/pages/acompañante.php" class="bubbly-submenu">Mi Acompañante</a></li>
+            <li><a href="/pages/recompensa.php" class="bubbly-submenu">Recompensas</a></li>
         </ul>
     </div>
     

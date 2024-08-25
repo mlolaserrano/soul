@@ -12,7 +12,7 @@
       name="keywords"
       content="Bienestar, salud, tranquilidad, soledad, felicidad, acompañante, solo, sola, triste, Ayuda emocional, calendario emocional, beneficios, regalos, estar mejor"
     />
-    <link rel="canonical" href=".../soul/home.html" />
+    <link rel="canonical" href=".../soul/home.php" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Soul" />
     <meta name="publisher" content="Marina Duarte, Lara Olcesi, Lola Serrano" />
@@ -71,7 +71,7 @@
                 <input type="text" id="mail" class="login-input" placeholder="Ingresa tu usuario" required>
                 <input type="password" id="contraseña" class="login-input" placeholder="Ingresa tu contraseña" required>
                 <button type="button" id="BotonI" class="login-button" onclick="InicioSesion()">Iniciar sesión</button>
-                <p class="s-letra">¿Sos parte del equipo? Ingresá <a href="/pages/admin/(adm)login.html" class="login-link">acá</a></p>
+                <p class="s-letra">¿Sos parte del equipo? Ingresá <a href="/pages/admin/(adm)login.php" class="login-link">acá</a></p>
             </form>
         </div>
     </div>
