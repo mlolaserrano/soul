@@ -208,3 +208,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
   
+
+  //Alerta de canjear recompensa
+
+  document.getElementById('M-BotonReclamar2').addEventListener('click', function() {
+    alert('¡Recompensa reclamada correctamente!');
+});

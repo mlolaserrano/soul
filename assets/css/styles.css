@@ -1013,3 +1013,177 @@ border-color: #f9d99a;
   font-style: italic;
   
 }
+
+
+/*M-Recompensas*/
+
+.M-Recompensas {
+  display: flex;
+  margin: 30px;
+  padding: 15px;
+}
+
+
+.M-fotoRecompensas {
+  margin: auto;
+}
+
+
+.M-TextoRecompensas {
+  font-size: small;
+  margin: auto;
+}
+
+
+.M-TextoReclamar {
+  font-weight: 300;
+  font-size: large;
+}
+
+
+.M-TextoRe {
+  font-weight: 200;
+  color: gray;
+  font-size: small;
+}
+
+.M-CajasRecompensas
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+
+.M-CajitaPuntos1 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+}
+
+
+.M-CajitaPuntos2 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+}
+
+
+.M-CajitaPuntos3 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+}
+
+
+.M-BotonReclamar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.M-BotonesCajita {
+  font-size: small;
+  background: #b695c0;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+
+.M-BotonesCajita:hover,
+.M-BotonesCajita:focus,
+.M-BotonesCajita:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.CajearPuntos{
+  background: #5DC1B9;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+/*boton redi canjear*/
+#M-Canjear{
+  color:white;
+  text-decoration: none;
+}
+
+.M-BotonReclamar{
+  background: #5DC1B9;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.M-BotonReclamarR{
+  background: #b695c0;
+  color:white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#M-BotonReclamar2{
+  background-color: #5DC1B9;
+  color:white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*Pgina canjear*/
+.P-disponible{
+  color: #81638B;
+}
+
+.canjes{
+background-color: #DAC9DF;
+margin: 15px;
+padding: 15px;
+width: 200px;
+height: auto;
+border-radius: 15px;
+
+}
+
+.Caja-canjes{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

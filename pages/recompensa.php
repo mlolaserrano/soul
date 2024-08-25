@@ -89,14 +89,67 @@
 
 <section>
   <div id="spinner" class="spinner" style="display: none;"></div>
-    <p>Pagina de recompensa</p>
+    
+  <div class="M-Recompensas">
+        
+    <div class="M-fotoRecompensas">
+      <img src="/images/medal-icon.png" alt="medal-icon" width="200">
+    </div>
+    <div class="M-TextoRecompensas">
+      <p class="M-TextoReclamar">¡Reclama tus puntos aquí!</p> 
+      <p class="M-TextoRe">Has trabajado duro y ahora es momento de recibir tus recompensas, En este espacio, puedes reclamar tus premios y disfrutar de los beneficios que te corresponden. </p>
+    </div>
+    <div class="CajearPuntos">
+      <a href="canjear.html" id="M-Canjear">Canjear puntos</a>
+    </div>
+    </div>
+
+    <div class="M-CajasRecompensas">
+        
+        
+      <div class="M-CajitaPuntos1">
+        <div class="M-CajaImg"><img src="/images/Meditación.jpg" alt="meditacion" width="170"></div>
+        <div class="M-BotonReclama">
+          <button id="M-BotonReclamar2">Reclamar puntos: 25</button>
+        </div>
+      </div>
+
+
+      <div class="M-CajitaPuntos2">
+          <div class="M-CajaImg"><img src="/images/Leer.jpg" alt="leer" width="170"></div>
+      <div class="M-BotonReclama">
+          <button id="M-BotonReclamar2">Reclamar puntos: 50</button>
+      </div>
+    </div>
+
+
+      <div class="M-CajitaPuntos3">
+          <div class="M-CajaImg"><img src="/images/Comida.jpg" alt="comida" width="170"></div>
+        <div class="M-BotonReclamar">
+        <a href="#" id="M-Canjear">Pendiente</a>
+        </div>
+    </div>
+
+
+    <div class="M-CajitaPuntos3">
+      <div class="M-CajaImg"><img src="/images/Espejo.jpg" alt="espejo" width="170"></div>
+    <div class="M-BotonReclamarR">
+    <a href="#" id="M-Canjear">Realizado</a>
+    </div>
+</div>
+
+    
+    
+    </div>
+
+
 </section>
        
 
 
 
       <footer>
-        <button id="chat"><img src="/images/Chat.png" width="150"></button>
+        <button id="chat"><img src="/images/Chat.png" width="170"></button>
         <div id="chatVentana" class="chat-ventana hidden">
             <div class="chat-header">
                 <span>Chat</span>
