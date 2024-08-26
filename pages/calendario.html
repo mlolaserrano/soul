@@ -48,7 +48,7 @@
 </head>
 
 
-<body>
+<body class="s-bgc">
   <header>
 
     <!-- 
@@ -85,46 +85,112 @@
 
   </header>
 
-  <section>
 
+  <section>
     <div id="spinner" class="spinner" style="display: none;"></div>
 
-    <div class="M-Recompensas">
-
-      <div class="M-fotoRecompensas">
-        <img src="/images/icono-de-3-estrella(1).png" alt="icono-de-3-estrella" width="200">
-      </div>
-      <div class="M-TextoRecompensas">
-        <p class="M-TextoReclamar">¡Cajea tus puntos aquí y personaliza tu experencia!
-        <p class="P-disponible">PUNTOS DISPONIBLES: 75</p>
-        </p>
-        <p class="M-TextoRe">Aquí puedes canjear tus puntos acumulados y utilizarlos para activar funciones exclusivas.
-        </p>
+  </section>
+  <section>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <div>
+            <div class="s-centrar">
+              <h3>Tabla de Emociones</h3>
+              <div class="calendar">
+                <div class="month">
+                  <p class="Mes">Mayo 2024</p>
+                </div>
+                <div class="days" id="days"></div>
+              </div>
+            </div>
+            <div id="status">
+              <div class="color">¡Añadí como te sentís hoy!</div>
+              <br />
+              <div class="message">
+                <div>
+                  <i class="bi bi-emoji-angry-fill"></i>
+                  <button class="BotonesCalendario" id="rojo">Enojado</button>
+                </div>
+                <div>
+                  <i class="bi bi-emoji-frown-fill"></i>
+                  <button class="BotonesCalendario" id="azul">Triste</button>
+                </div>
+                <div>
+                  <i class="bi bi-emoji-expressionless-fill"></i>
+                  <button class="BotonesCalendario" id="verde">Aburrida</button>
+                </div>
+                <div>
+                  <i class="bi bi-emoji-smile-fill"></i>
+                  <button class="BotonesCalendario" id="amarillo">Feliz</button>
+                </div>
+              </div>
+              <hr />
+              <button class="BotonConfirm" id="confirm">Confirmar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h3>¿Que personaje define tu estado de animo hoy?</h3>
+          <br>
+          <br>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <img src="/images/mood-boredom 2.png" alt="" width="60" />
+                <p class="emociones">Aburrido</p>
+              </div>
+              <div class="col">
+                <img src="/images/mood-excitement 2.png" alt="" width="70" />
+                <p class="emociones">Feliz</p>
+              </div>
+              <div class="col">
+                <img src="/images/mood-fear 2.png" alt="" width="80" />
+                <p class="emociones">Asustada</p>
+              </div>
+              <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <img src="/images/mood-frustration 2.png" alt="" width="80" />
+                    <p class="emociones">Frustrada</p>
+                  </div>
+                  <div class="col">
+                    <img src="/images/mood-rage 2.png" alt="" width="80" />
+                    <p class="emociones">Enojada</p>
+                  </div>
+                  <div class="col">
+                    <img src="/images/mood-resentment 2.png" alt="" width="80" />
+                    <p class="emociones">Triste</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="Caja-canjes">
-      <div class="canjes">
-        <div><img src="/images/-theme-color-web.png" width="170" alt="-theme-color-web"></div>
-        <div class="M-BotonesA"><a href="#" class="M-BotonesCajita">Ver mas</a></div>
-      </div>
-      <div class="canjes">
-        <div><img src="/images/themes-icons.png" width="170" alt="themes-icons"></div>
-        <div class="M-BotonesA"><a href="#" class="M-BotonesCajita">Ver mas</a></div>
-      </div>
-      <div class="canjes">
-        <div><img src="/images/themes-background-web-icon.png" width="170" alt="themes-background-web-icon"></div>
-        <div class="M-BotonesA"><a href="#" class="M-BotonesCajita">Ver mas</a></div>
-      </div>
-      <div class="canjes">
-        <div><img src="/images/themesfontsicon.png" width="170" alt="themesfontsicon"></div>
-        <div class="M-BotonesA"><a href="#" class="M-BotonesCajita">Ver mas</a></div>
-      </div>
-    </div>
-
   </section>
 
+  <section>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <img src="/images/grafico.jpg" alt="" width="500" />
+        </div>
 
+        <div class="col">
+          <div class="s-cuadrotexto">
+            <p class="s-textoa">*¡Una vez compartas tu progeso con tu acompañante,
+              recibiras feedback y nuevas actividades para realizar! </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  </section>
 
 
   <footer>
@@ -160,6 +226,9 @@
 
 
   <script src="/assets/js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
