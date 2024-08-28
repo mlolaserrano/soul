@@ -68,7 +68,6 @@ for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
 
-
 // Chat 
 
 document.getElementById('chat').addEventListener('click', function() {
@@ -214,3 +213,4 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('M-BotonReclamar2').addEventListener('click', function() {
     alert('¡Recompensa reclamada correctamente!');
 });
+
