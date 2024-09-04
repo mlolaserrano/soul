@@ -963,6 +963,10 @@ margin-left: -50px;
   width: 80%;
   height: auto;
  }
+ .L-modal-body{
+  width: 80%;
+  height: auto;
+ }
 }
 
  .L-modal-content{
@@ -982,6 +986,12 @@ margin-left: -50px;
   width: 30%;
   height: 50px;
  }
+
+
+.L-CarruselModal{
+  width: 400px;
+  height: auto;
+}
 
 
 /*Administrador -  Home */
