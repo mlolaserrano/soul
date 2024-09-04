@@ -957,6 +957,7 @@ margin-left: -50px;
 @media screen and (max-width:600px) {
  .L-Imagenes{
   width: 50%;
+  height: auto;
  }
 }
 
