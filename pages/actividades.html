@@ -177,51 +177,47 @@
         <div class="col">
           <img loading="lazy" src="/images/Comida.jpg" alt="" class="L-Imagenes">
           <br><br>
-
-          <!-- Ventana 3 -->
-          <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="L-modal-content">
-                <div class="modal-header">
-                  <h1 class="L-Titulo" id="exampleModalToggleLabel">Comida</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Actividad de Comer:
-                  <br>
-                  - Preparación del Entorno:
-                  Antes de comenzar a comer, crea un ambiente tranquilo y agradable.
-                  Si es posible, come en un lugar donde no haya distracciones, como la televisión o el teléfono.
-                  Asegúrate de que la mesa esté bien puesta y que todo esté listo para que te sientas cómodo.
-                  <br>
-                  - Primer Bocado Consciente:
-                  Toma un pequeño bocado de comida y mastica lentamente.
-                  Siente las texturas en tu boca y nota los sabores que emergen.
-                  Observa cómo cambia la comida mientras masticas.
-                  Intenta identificar los ingredientes y los condimentos que componen el plato.
-                  <br>
-                  - Atención a las Sensaciones Corporales:
-                  Mientras comes, presta atención a las señales que te envía tu cuerpo.
-                  Nota cómo se siente tu estómago mientras te vas alimentando.
-                  Come lo suficiente para sentirte satisfecho, pero evita comer en exceso.
-                  Escucha tu cuerpo y respétalo.
-                  <br>
-                  - Reconocimiento de las Emociones:
-                  A lo largo de la comida, observa las emociones que surgen.
-                  ¿Te sientes relajado, feliz, ansioso o distraído? Reconoce estas emociones sin juzgarlas y trata de
-                  volver a concentrarte en la experiencia de comer.
-                  Si notas que te comes emocionalmente (por ansiedad o aburrimiento),
-                  trata de identificar esas emociones y gestionarlas de manera saludable.
-
-                </div>
-                <div class="modal-footer">
-                  <button class="L-btnfin" data-bs-target="#exampleModalToggle2"
-                    data-bs-toggle="modal">Finalizar</button>
-                </div>
-              </div>
-            </div>
+ <!-- Boton principal -->
+ <button type="button"  class="L-Boton" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Realice la actividad </button>
+ <!-- Modal 3 -->
+       <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+          <div class="modal-header">
+           <h1 class="modal-title fs-5" id="staticBackdropLabel">Comida</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+       <div class="modal-body">
+         <!--carousel-->
+         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="\images\escuchar-musica.png" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                 <img src="\images\cocinar.png" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                 <img src="\images\preparar-la-mesa.png" class="d-block w-100" alt="...">
+               </div>
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+       </div>
+          <div class="modal-footer">
+           <button type="button" class="L-btnfin" data-bs-dismiss="modal">Close</button>
+           <button type="button" class="L-btnfin">Finalizar</button>
+          </div>
+         </div>
+        </div>
+       </div>
 
           <button class="L-Boton" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Realice la
             actividad</button>
