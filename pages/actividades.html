@@ -223,48 +223,47 @@
         <div class="col">
           <img loading="lazy" src="/images/Espejo.jpg" alt="" class="L-Imagenes">
           <br><br>
-
-          <!-- Ventana 4 -->
-          <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="L-modal-content">
-                <div class="modal-header">
-                  <h1 class="L-Titulo" id="exampleModalToggleLabel">Admirarse frente al espejo</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Actividad de Admirarse frente al espejo:
-                  <br>
-                  - Creación de un Espacio Seguro:
-                  Encuentra un lugar tranquilo donde puedas estar a solas con un espejo de cuerpo entero o de rostro.
-                  Asegúrate de que el espacio sea privado y cómodo, donde te sientas a gusto.
-                  Si lo deseas, puedes encender una vela o poner música suave que te relaje.
-                  <br>
-                  - Conexión con la Respiración:
-                  Antes de mirarte al espejo, cierra los ojos y toma algunas respiraciones profundas.
-                  Inhala lentamente por la nariz y exhala por la boca.
-                  Esta respiración consciente te ayudará a centrarte y a calmar cualquier nerviosismo o autocrítica que
-                  pueda surgir.
-                  <br>
-                  - Afirmaciones Positivas:
-                  Habla contigo mismo en voz alta o en silencio.
-                  Di palabras de afirmación que te refuercen positivamente.
-                  Puedes decir cosas como "Me acepto tal como soy", "Soy suficiente" o "Me respeto y me valoro".
-                  Estas afirmaciones pueden ayudarte a cambiar la narrativa interna hacia una más amorosa y solidaria.
-                  <br>
-
-                </div>
-                <div class="modal-footer">
-                  <button class="L-btnfin" data-bs-target="#exampleModalToggle2"
-                    data-bs-toggle="modal">Finalizar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button class="L-Boton" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Realice la
-            actividad</button>
+<!-- Boton principal -->
+<button type="button"  class="L-Boton" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">Realice la actividad </button>
+<!-- Modal 4 -->
+      <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+       <div class="modal-dialog">
+        <div class="modal-content">
+         <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Admirarse frente al espejo</h1>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+      <div class="modal-body">
+        <!--carousel-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner">
+             <div class="carousel-item active" data-bs-interval="10000">
+               <img src="\images\alguien-inhalando-profundo.jpg" class="d-block w-100" alt="...">
+             </div>
+             <div class="carousel-item" data-bs-interval="2000">
+               <img src="\images\cerrar-los-ojos-frente-al-espejo.png" class="d-block w-100" alt="...">
+             </div>
+             <div class="carousel-item">
+               <img src="\images\mirarse-y-apreciarse-frente-al-espejo.png" class="d-block w-100" alt="...">
+             </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+      </div>
+         <div class="modal-footer">
+          <button type="button" class="L-btnfin" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="L-btnfin">Finalizar</button>
+         </div>
+        </div>
+       </div>
+      </div>
         </div>
 
       </div>
