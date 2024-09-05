@@ -214,3 +214,13 @@ document.addEventListener('DOMContentLoaded', function () {
     alert('¡Recompensa reclamada correctamente!');
 });
 
+// Modal de actividades 
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
+ 
