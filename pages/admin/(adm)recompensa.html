@@ -30,6 +30,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap" rel="stylesheet">
+
   <!--flaticon-->
   <!--Ayuda-->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-rounded/css/uicons-thin-rounded.css'>
@@ -49,46 +50,68 @@
 
 <body>
   <header>
-    <nav>
-
-      <!-- 
-  <?php include "/componentes/menu.php" ?>
-  -->
-
-      <ul class="navegacion">
-        <li class="logo">
-          <a href="/pages/admin/(adm)home.html"> <img src="/images/Logo.png" alt="Logo de SOUL"> </a>
-        </li>
-        <li class="busqueda">
-          <div class="search-container">
-            <input type="text" placeholder="Buscar..." class="buscador1">
-            <button class="buscador2">Buscar</button>
-          </div>
-        </li>
-        <li class="pregunta"><i class="fi fi-tr-seal-question"></i></li>
-        <li class="usuario"><i class="fi fi-tr-man-head"></i></li>
-        <a href="/index.html" class="sin-formato">
-          <li class="salir"><i class="fi fi-ts-sign-out-alt"></i></li>
-        </a>
-      </ul>
-    </nav>
-    <div class="submenu">
-      <ul class="submenu-list">
-        <li><a href="(adm)calendario.html" class="bubbly-submenu">Calendario</a></li>
-        <li><a href="(adm)actividades.html" class="bubbly-submenu">Actividades</a></li>
-        <li><a href="(adm)acompañante.html" class="bubbly-submenu">Mis pacientes</a></li>
-        <li><a href="(adm)recompensa.html" class="bubbly-submenu">Otorgar recompensas</a></li>
-      </ul>
-    </div>
+ 
+    
+    <componente-admi></componente-admi>
 
   </header>
 
 
   <section>
     <div id="spinner" class="spinner" style="display: none;"></div>
-    <p>Pagina del administrador - RECO</p>
-  </section>
+    <div id="spinner" class="spinner" style="display: none;"></div>
 
+    <div class="L-Recompensas">
+
+      <div class="L-fotoRecompensas">
+        <img src="/images/medal-icon.png" alt="medal-icon" width="200">
+      </div>
+      <div class="L-TextoRecompensas">
+        <p class="L-TextoReclamar">¡Ve los puntos canjeados aqui!</p>
+        <p class="L-TextoRe">Tus pacientes han trabajado duro y recibieron sus recompensas, En este espacio, podras ver si ya 
+          los reclamaron. </p>
+      </div>
+     
+    </div>
+
+    <div class="L-CajasRecompensas">
+
+
+      <div class="L-CajitaPuntos1">
+        <div class="L-CajaImg"><img src="/images/Meditación.jpg" alt="meditacion" width="170"></div><br>
+        <div class="L-BotonReclama">
+          <button id="L-BotonReclamar2">Reclamados</button>
+        </div>
+      </div>
+
+
+      <div class="L-CajitaPuntos2">
+        <div class="L-CajaImg"><img src="/images/Leer.jpg" alt="leer" width="170"></div><br>
+        <div class="L-BotonReclama">
+          <button id="L-BotonReclamar2">Reclamados</button>
+        </div>
+      </div>
+
+
+      <div class="L-CajitaPuntos3">
+        <div class="L-CajaImg"><img src="/images/Comida.jpg" alt="comida" width="170"></div><br>
+        <div class="L-BotonReclamar">
+          <a href="#" id="L-Canjear">Pendiente</a>
+        </div>
+      </div>
+
+
+      <div class="L-CajitaPuntos3">
+        <div class="L-CajaImg"><img src="/images/Espejo.jpg" alt="espejo" width="170"></div><br>
+        <div class="L-BotonReclamarR">
+          <a href="#" id="L-Canjear">Pendiente</a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
 
 
 
@@ -97,34 +120,17 @@
 
   <footer>
 
-    <!-- 
-<?php include "/componentes/chat.php" ?>
--->
+   
+    
+    <componente-chat></componente-chat>
 
 
-    <button id="chat"><img src="/images/Chat.png" width="150"></button>
-    <div id="chatVentana" class="chat-ventana hidden">
-      <div class="chat-header">
-        <span>Chat</span>
-        <button id="cerrar" class="cerrar">X</button>
-      </div>
-      <div class="chat-body" id="chatBody">
-        <p>¡Hola Juana! ¿En que te puedo ayudar?</p>
-      </div>
-      <div class="chat-footer">
-        <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
-        <button id="enviar">Enviar</button>
-      </div>
-    </div>
-    <hr>
+<div id="componente-footer"></div>
 
-    <!-- 
-<?php include "/componentes/footer.php" ?>
--->
-    <p class="footer">&copy; Marina Duarte - Lara Olcesi - Lola Serrano </p>
+  
   </footer>
 
-
+ <script src="/componentes/c-script.js"></script>
   <script src="/assets/js/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

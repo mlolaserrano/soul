@@ -948,12 +948,27 @@ margin-left: -50px;
   font-family: Poppins;
   font-size: 15px;
  }
- 
+
 .L-Imagenes{
   height: 300px;
   width: 300px;
+}
+
+@media screen and (max-width:600px) {
+ .L-Imagenes{
+  width: 80%;
+  height: auto;
  }
- 
+ .L-Boton{
+  width: 80%;
+  height: auto;
+ }
+ .L-modal-body{
+  width: 80%;
+  height: auto;
+ }
+}
+
  .L-modal-content{
    background-color: #c7bddd;
    text-align:justify;
@@ -973,7 +988,13 @@ margin-left: -50px;
  }
 
 
-/*Administrafor -  Home */
+.L-CarruselModal{
+  width: 400px;
+  height: auto;
+}
+
+
+/*Administrador -  Home */
 
 .s-admi {
   margin: 25px;
@@ -1186,4 +1207,159 @@ border-radius: 15px;
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+
+/*Recompensas de Admin*/
+
+.L-Recompensas {
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.L-fotoRecompensas {
+  margin: 25px;
+  padding: 25px;
+}
+
+
+.L-TextoRecompensas {
+  font-size: small;
+ 
+}
+
+
+.L-TextoReclamar {
+  font-weight: 300;
+  font-size: large;
+}
+
+
+.L-TextoRe {
+  font-weight: 200;
+  color: gray;
+  font-size: small;
+}
+
+.L-CajasRecompensas
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+
+
+.L-CajitaPuntos1 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+
+.L-CajitaPuntos2 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+
+.L-CajitaPuntos3 {
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  justify-content: center;
+  
+}
+
+
+.L-BotonReclamar {
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+.L-BotonesCajita {
+  font-size: small;
+  background: #b695c0;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  
+}
+
+
+.L-BotonesCajita:hover,
+.L-BotonesCajita:focus,
+.L-BotonesCajita:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/* Admi boton redi canjear*/
+
+#L-Canjear{
+  color:white;
+  text-decoration: none;
+}
+
+.L-BotonReclamar{
+  background: #b695c0;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.L-BotonReclamarR{
+  background: #b695c0;
+  color:white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: auto;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#L-BotonReclamar2{
+  background-color: #5DC1B9;
+  color:white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 40px;
+  margin: auto;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
 }
