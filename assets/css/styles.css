@@ -948,6 +948,10 @@ margin-left: -50px;
     width: 80%;
     height: auto;
   }
+
+  .M-textoPaciente{
+    font-size: 12px;
+  }
 }
 
 /*Actividades General*/
