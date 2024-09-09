@@ -947,6 +947,7 @@ margin-left: -50px;
   .M-BotonesA{
     width: 80%;
     height: auto;
+    margin: 6px;
   }
 
   .M-textoPaciente{
@@ -960,6 +961,7 @@ margin-left: -50px;
   .M-Cajita1{
     width: 113px;
     margin: 2px;
+    align-content: center;
   }
   .M-Cajita2{
     width: 113px;
