@@ -940,8 +940,11 @@ margin-left: -50px;
 
 @media screen and (max-width:600px){
   .M-foto{
-    width: 80%;
-    height: auto;
+
+  }
+
+  .M-MiAcompañante{
+    display: block;
   }
 
   .M-BotonesA{
