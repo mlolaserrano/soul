@@ -864,6 +864,11 @@ margin-left: -50px;
   font-size: small;
 }
 
+.M-textoPaciente{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
 
 .M-CajasAcompañante {
