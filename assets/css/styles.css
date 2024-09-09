@@ -938,6 +938,18 @@ margin-left: -50px;
   transform: scale(1.1);
 }
 
+@media screen and (max-width:600px){
+  .M-foto{
+    width: 80%;
+    height: auto;
+  }
+
+  .M-BotonesA{
+    width: 80%;
+    height: auto;
+  }
+}
+
 /*Actividades General*/
 
 .L-Titulo{
