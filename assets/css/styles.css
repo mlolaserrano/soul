@@ -950,7 +950,12 @@ margin-left: -50px;
   }
 
   .M-textoPaciente{
-    font-size: 12px;
+    font-size: 13px;
+  }
+
+  .tituloAcom{
+    font-size: 13px;
+    
   }
 }
 
