@@ -595,8 +595,9 @@ h3{
 
 .s-columnashome {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 2%; 
+  padding: 10px;
 }
 
 .s-articulo {
@@ -632,38 +633,60 @@ h3{
 
 @media (max-width: 1024px) {
   .s-columnashome {
-      grid-template-columns: 1fr;
-      padding: 0 40px;
-      
+    grid-template-columns: 1fr;
+    padding: 0 20px;
   }
 
   .s-articulo {
-      padding: 20px;
-      margin: 20px 0;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .s-presentacion {
+    width: 80%;
+    padding: 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media (max-width: 768px) {
   .s-columnashome {
-      padding: 0 20px;
+    padding: 0 10px;
   }
 
   .s-articulo {
-      padding: 15px;
-      margin: 10px 0;
+    padding: 15px;
+    margin: 10px 0;
   }
-  
+
+  .s-presentacion {
+    width: 80%;
+    padding: 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (min-width: 2560px) {
   .s-columnashome {
     padding: 0 20px;
-}
+  }
 
-.s-articulo {
-    padding: 15px;
+  .s-articulo {
+    padding: 20px;
     margin-left: 250px;
-}
+  }
+
+  .s-presentacion {
+    width: 80%;
+    padding: 5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
@@ -699,7 +722,6 @@ h3{
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
-
 }
 
 .s-postit2 {
@@ -801,23 +823,14 @@ h3{
   text-align: center;
   vertical-align: middle; 
 }
-.s-lista1{
-margin-left: -50px;
-}
 
-@keyframes progreso {
-    from {
-        width: 0;
-    }
-    to {
-        width: 45%;
-    }
-}
 
-.s-lista2, .s-lista1{
+
+
+.s-lista2, .s-lista1 {
   list-style: none;
   font-size: 27px;
- align-items: left;
+  align-items: left;
 }
 
 .s-lista{
@@ -828,26 +841,21 @@ margin-left: -50px;
 
 .s-lista5 i,
 .s-lista5 p {
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 5px;
-    font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  font-size: 15px;
 }
 
-.s-lista5 p {
-  padding-top:5px;
-  padding-bottom:5px;
-  margin: 5px;
- 
-}
-
-.s-lista5 i {
-  padding-top:5px;
-  padding-bottom:5px;
-  margin: 5px;
- 
+@keyframes progreso {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
 }
 
 
