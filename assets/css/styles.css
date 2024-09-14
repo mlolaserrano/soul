@@ -1039,7 +1039,11 @@ margin-left: -50px;
   display: flex;
   justify-content: center;
  }
-
+.modal-footer{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 /*
 .L-CarruselModal{
   width: 400px;
