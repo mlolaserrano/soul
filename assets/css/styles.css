@@ -412,54 +412,6 @@ h3{
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-/*Menu hamburgusa */
-.logo{
-  display: flex;
-  margin-right: auto;
-  align-items:center;
-}
-.menu-hamburguesa-icon{
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  padding:20px;
-}
-
-.navegacion,
-.submenu{
-  display: flex;
-}
-.navegacion.active,
-.submenu.active{
-  display: none;
-}
-
-@media (max-width:600px){
-  .menu-hamburguesa-icon{
-    display:block;
-  }
-  .navegacion,
-  .submenu{
-    display: none;
-    flex-direction: column;
- 
-  }
-.navegacion.active,
-.submenu.active{
-  display: flex;
-}
-
-.logo img{
-  max-width: 100px;
-  height: auto;
-}
-.logo{
-  display: flex;
-  justify-content: left;
-  margin-right: auto;
-}
-
-}
 
 
 /*CHAT*/

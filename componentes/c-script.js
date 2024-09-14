@@ -5,9 +5,7 @@ class componenteMenu extends HTMLElement {
     this.innerHTML =
       `
     <nav>
-    <div id="menu-icon" class="menu-hamburguesa-icon">
-    <i class="fi fi-br-menu-burger"></i>
-    </div>
+    
       <ul class="navegacion" id="navegacion">
         <li class="logo">
           <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
