@@ -1014,7 +1014,11 @@ margin-left: -50px;
  }
  
 .L-CarruselModal{
-  width:40%;
+  width:20%;
+  height: auto;
+}
+.L-btnfin{
+  width: 50%;
   height: auto;
 }
 
