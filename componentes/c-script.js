@@ -9,9 +9,7 @@ class componenteMenu extends HTMLElement {
         <li class="logo">
           <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
         </li>
-        <li class="menu-hamburguesa">
-           <i class="fi fi-br-menu-burger" id="menu-toggle"></i>
-        </li>
+    
         <li class="busqueda">
           <div class="search-container">
             <input type="text" placeholder="Buscar..." class="buscador1">
@@ -37,6 +35,8 @@ class componenteMenu extends HTMLElement {
       `;
   }
 }
+
+ //<li class="menu-hamburguesa"><i class="fi fi-br-menu-burger" id="menu-toggle"></i></li>
 customElements.define('componente-menu', componenteMenu);
 
 // footer
