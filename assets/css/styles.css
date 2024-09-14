@@ -1037,7 +1037,9 @@ margin-left: -50px;
   width: 400px;
   height: auto;
 }
-
+.carousel-control-prev{
+  color: #1a1a1a;
+}
 
 /*Administrador -  Home */
 
