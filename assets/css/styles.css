@@ -1041,6 +1041,7 @@ margin-left: -50px;
 .carousel-control-prev-icon{
   background-color: #8c8888b4;
   color:#1a1a1a;
+  border-radius: 200px;
 }
 
 /*Administrador -  Home */
