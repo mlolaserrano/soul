@@ -413,7 +413,11 @@ h3{
   }
 }
 /*Menu hamburgusa 2*/
-
+.logo{
+  display: flex;
+  margin-right: auto;
+  align-items:center ;
+}
 .menu-hamburguesa-icon{
   display: none;
   font-size: 30px;

@@ -6,7 +6,7 @@ class componenteMenu extends HTMLElement {
       `
     <nav>
     <div class="menu-hamburguesa-icon">
-    <i class="fi fi-br-menu-burger" id="menu-icon"></i>
+    <i class="fi fi-br-menu-burger"></i>
     </div>
       <ul class="navegacion" id="navegacion">
         <li class="logo">
