@@ -412,6 +412,28 @@ h3{
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+/*Menu hamburguesa*/
+#menu-hamburguesa,
+#submenulist{
+  display: none;
+}
+
+#menu-icon{
+  display: block;
+}
+
+@media (max-width:768px){
+  #menu-hamburguesa,
+  #submenulist{
+    display: none;
+  }
+.menu-active #menuhamburguesa,
+.menu-active #submenulist{
+  display: flex;
+  flex-direction: column;
+}
+
+}
 
 /*CHAT*/
 

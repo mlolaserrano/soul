@@ -68,6 +68,17 @@ for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
 
+// menu hamburguesa
+
+const menuHamburguesa = document.getElementById('menu-icon');
+const navegacion = document.getElementById('menu-hamburguesa');
+const submenuList = document.getElementById('submenulist');
+
+menuHamburguesa.addEventListener('click', () => {
+   navegacion.classList.toggle('menu-active');
+   submenuList.classList.toggle('menu-active');
+})
+
 // Chat 
 
 document.getElementById('chat').addEventListener('click', function() {
