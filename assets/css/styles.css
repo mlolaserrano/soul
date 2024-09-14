@@ -1046,6 +1046,10 @@ margin-left: -50px;
   background-color: #aca7a7b4;
   border-radius: 100px;
 }
+
+.visually-hidden{
+  color: #1a1a1a;
+}
 /*Administrador -  Home */
 
 .s-admi {
