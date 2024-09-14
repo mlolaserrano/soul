@@ -1019,7 +1019,11 @@ margin-left: -50px;
 }
 
 }
-
+.modal-footer{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
  .L-modal-content{
    background-color: #c7bddd;
    text-align:justify;
