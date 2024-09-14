@@ -5,7 +5,7 @@ class componenteMenu extends HTMLElement {
     this.innerHTML =
       `
     <nav>
-      <ul class="navegacion" id="menu-hamburguesa">
+      <ul class="navegacion">
         <li class="logo">
           <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
         </li>
@@ -23,7 +23,7 @@ class componenteMenu extends HTMLElement {
         </a>
       </ul>
     </nav>
-    <div class="submenu" id="submenulist">
+    <div class="submenu" >
       <ul class="submenu-list">
         <li><a href="calendario.html" class="bubbly-submenu">Calendario</a></li>
         <li><a href="actividades.html" class="bubbly-submenu">Actividades</a></li>
