@@ -593,126 +593,55 @@ h3{
 
 /* HOME PACIENTE */
 
-.s-columnashome {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-  gap: 2%; 
-  padding: 10px;
-}
 
 .s-articulo {
-  margin-top: 10%; 
-  margin-left: 5%;  
+  margin-top: 8%; 
+  margin-left: 8%;  
   border-radius: 8px;
   text-align: left;
-  width: 90%; 
+  width: 100%;
+
 }
+
+.s-contenedor{
+  width: 100%;
+}
+.s-boton1 {
+  width: 60%; 
+  border-radius: 25px;
+  margin: 5% auto; 
+  border: 2px solid #DAC9DF; 
+  background-color: #DAC9DF; 
+  color: rgb(0, 0, 0); 
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  text-align: center; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.s-boton1:hover {
+  background-color: #B8A0C0; 
+  color: #000000; 
+}
+
+
 
 .s-presentacion{
   width: 80%;
   padding: 5%; 
 }
 
-.s-articulo {
-  padding: 5%; 
-  width: 100%;
-}
 
-
-.s-articulo, .s-lista {
-  background-color: #ffffff;
-  padding: 20px;
+.s-saludo{
   text-align: left;
+  align-items: center;
 }
-
-.s-progreso1 {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-  .s-columnashome {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-
-  .s-articulo {
-    padding: 20px;
-    margin: 20px 0;
-  }
-
-  .s-presentacion {
-    width: 80%;
-    padding: 5%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .s-columnashome {
-    padding: 0 10px;
-  }
-
-  .s-articulo {
-    padding: 15px;
-    margin: 10px 0;
-  }
-
-  .s-presentacion {
-    width: 80%;
-    padding: 5%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (min-width: 2560px) {
-  .s-columnashome {
-    padding: 0 20px;
-  }
-
-  .s-articulo {
-    padding: 20px;
-    margin-left: 250px;
-  }
-
-  .s-presentacion {
-    width: 80%;
-    padding: 5%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-
 
 .s-img {
-  margin: 25px;
-  padding: 25px;
+  width: 15rem; 
 }
-
-.s-presentacion {
-  display: flex;
-  align-items: center;
-}
-
-.s-dividir {
-  display: flex;
-  flex-direction: column;
-}
-
-.s-centrar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 
 .s-postit {
   background-color: var(--title-color3);
@@ -741,6 +670,7 @@ h3{
 
 }
 
+
 .s-container {
   display: flex;
   gap: 20px;
@@ -753,32 +683,17 @@ h3{
 
 }
 
-.s-mis-notas {
-  flex: 1;
-  max-width: 50%;
-
-}
-
-.s-notitas {
-  margin-top: 25px;
-}
 
 .s-columnas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 125%;
+  width: 80%;
   margin-left: 15%;
 
 }
 
 
-.s-centrar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
 .s-titulo3 {
   text-align: left;
@@ -790,8 +705,6 @@ h3{
 .s-agregar {
 
   align-items: center;
-
-
   color: #5dc1b9;
   font-size: 35px;
 
@@ -805,8 +718,6 @@ h3{
     height: 30px;
     background-color: #D9D9D9;
     border-radius: 15px;
-    overflow: hidden;
-    margin: 0; 
 }
 
 .s-progreso2 {
@@ -829,13 +740,12 @@ h3{
 
 .s-lista2, .s-lista1 {
   list-style: none;
-  font-size: 27px;
-  align-items: left;
+  font-size: 15px;
 }
 
 .s-lista{
-  margin: 10px;
-  padding: 10px;
+  margin: 5%;
+  text-align: left;
  
 }
 
@@ -843,11 +753,16 @@ h3{
 .s-lista5 p {
   display: inline-block;
   vertical-align: middle;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 5px;
-  font-size: 15px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 1%;
+  font-size: 17px;
 }
+
+.s-margen{
+  margin-left: 8%;
+}
+  /* Animacion carga de barra de progreso */ 
 
 @keyframes progreso {
   from {
@@ -857,6 +772,8 @@ h3{
     width: 45%;
   }
 }
+
+
 
 
 /*MI ACOMPAÑANTE*/
