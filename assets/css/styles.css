@@ -1039,11 +1039,13 @@ margin-left: -50px;
 }
 
 .carousel-control-prev-icon{
-  background-color: #8c8888b4;
-  color:#1a1a1a;
-  border-radius: 200px;
+  background-color: #aca7a7b4;
+  border-radius: 100px;
 }
-
+.carousel-control-next-icon{
+  background-color: #aca7a7b4;
+  border-radius: 100px;
+}
 /*Administrador -  Home */
 
 .s-admi {
