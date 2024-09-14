@@ -68,6 +68,8 @@ for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
 
+//menu hamburguesa
+
 // Chat 
 
 document.getElementById('chat').addEventListener('click', function() {
