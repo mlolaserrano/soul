@@ -899,7 +899,7 @@ h3{
   }
 
   .M-textoPaciente{
-    font-size: 13px;
+    font-size: 50%;
   }
 
   .tituloAcom{
@@ -907,17 +907,17 @@ h3{
 
   }
   .M-Cajita1{
-    width: 113px;
-    margin: 2px;
+    width: 80%;
+    height: auto;
     align-content: center;
   }
   .M-Cajita2{
-    width: 113px;
-    margin: 2px;
+    width: 80%;
+    height: auto;
   }
   .M-Cajita3{
-    width: 113px;
-    margin: 2px;
+    width: 80%;
+    height: auto;
   }
 }
 
