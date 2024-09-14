@@ -1034,12 +1034,10 @@ margin-left: -50px;
 
 
 .L-CarruselModal{
-  width: 400px;
+  width: 200px;
   height: auto;
 }
-.carousel-control-prev-icon{
-  background-color: #242424;
-}
+
 
 /*Administrador -  Home */
 
