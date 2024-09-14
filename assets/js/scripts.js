@@ -68,17 +68,6 @@ for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
 
-// Menu hamburguesa 2
-document.addEventListener("DOMContentLoaded", () => {
-  const menuHamburguesa = document.getElementById('menu-icon');
-  const navegacion = document.getElementById('navegacion');
-  const submenu = document.getElementById('submenu');
-
-  menuHamburguesa.addEventListener('click', () =>{
-    navegacion.classList.toggle('active');
-    submenu.classList.toggle('active');
-  });
-});
 
 
 // Chat 
