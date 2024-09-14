@@ -939,10 +939,10 @@ margin-left: -50px;
 }
 
 @media screen and (max-width:600px){
-  .M-foto{
+ /* .M-foto{
 
   }
-
+*/
   .M-MiAcompañante{
     display: block;
     text-align: center;
@@ -1012,6 +1012,12 @@ margin-left: -50px;
   width: 80%;
   height: auto;
  }
+ 
+.L-CarruselModal{
+  width:50%;
+  height: auto;
+}
+
 }
 
  .L-modal-content{
@@ -1032,11 +1038,11 @@ margin-left: -50px;
   height: 50px;
  }
 
-
+/*
 .L-CarruselModal{
   width: 400px;
   height: auto;
-}
+}*/
 
 .carousel-control-prev-icon{
   background-color: #aca7a7b4;
@@ -1047,9 +1053,7 @@ margin-left: -50px;
   border-radius: 100px;
 }
 
-.visually-hidden{
-  color: #1a1a1a;
-}
+
 /*Administrador -  Home */
 
 .s-admi {
