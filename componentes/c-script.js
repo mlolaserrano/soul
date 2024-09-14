@@ -5,7 +5,7 @@ class componenteMenu extends HTMLElement {
     this.innerHTML =
       `
     <nav>
-    <div class="menu-hamburguesa-icon">
+    <div id="menu-icon" class="menu-hamburguesa-icon">
     <i class="fi fi-br-menu-burger"></i>
     </div>
       <ul class="navegacion" id="navegacion">

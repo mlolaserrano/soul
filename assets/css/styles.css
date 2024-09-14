@@ -412,11 +412,11 @@ h3{
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-/*Menu hamburgusa 2*/
+/*Menu hamburgusa */
 .logo{
   display: flex;
   margin-right: auto;
-  align-items:center ;
+  align-items:center;
 }
 .menu-hamburguesa-icon{
   display: none;
@@ -449,6 +449,15 @@ h3{
   display: flex;
 }
 
+.logo img{
+  max-width: 100px;
+  height: auto;
+}
+.logo{
+  display: flex;
+  justify-content: left;
+  margin-right: auto;
+}
 
 }
 
