@@ -68,7 +68,15 @@ for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
 
+//menu hamburguesa
+document.addEventListener('DOMContentLoaded', function () {
+  const menuToggle = document.getElementById('menu-toggle');
+  const submenu = document.getElementById('submenu');
 
+  menuToggle.addEventListener('click', function () {
+    submenu.classList.toggle('active');
+  });
+});
 
 // Chat 
 
