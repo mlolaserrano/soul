@@ -412,6 +412,42 @@ h3{
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+/*Menu hamburgusa 2*/
+
+.menu-hamburguesa-icon{
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding:20px;
+}
+
+.navegacion,
+.submenu{
+  display: none;
+}
+
+@media (max-width:600px){
+  .menu-hamburguesa-icon{
+    display: none;
+  }
+  .navegacion,
+  .submenu{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+.navegacion.active,
+.submenu.active{
+  display: flex;
+}
+.navegacion li,
+.submenu-list{
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+}
 
 
 /*CHAT*/
