@@ -423,29 +423,28 @@ h3{
 
 .navegacion,
 .submenu{
+  display: flex;
+}
+.navegacion.active,
+.submenu.active{
   display: none;
 }
 
 @media (max-width:600px){
   .menu-hamburguesa-icon{
-    display: none;
+    display:block;
   }
   .navegacion,
   .submenu{
     display: none;
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 10px;
+ 
   }
 .navegacion.active,
 .submenu.active{
   display: flex;
 }
-.navegacion li,
-.submenu-list{
-  margin-left: 0;
-  margin-bottom: 10px;
-}
+
 
 }
 
