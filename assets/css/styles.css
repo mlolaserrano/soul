@@ -24,6 +24,9 @@
 body {
   background-color: rgb(254, 255, 255);
   overflow-x: hidden;
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box; 
   
 }
 
@@ -61,6 +64,13 @@ h3{
   font-size: 19px;
   font-family: "Poppins", sans-serif;
 }
+
+*,  
+*:before,  
+*:after {  
+    box-sizing: inherit;  
+}  
+
 
 /* SPINNER (PANTALLA DE CARGA) */
 .spinner {
@@ -585,20 +595,28 @@ h3{
 
 .s-columnashome {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 50% 50%;
+  gap: 2%; 
 }
+
 .s-articulo {
-  margin-top: 105px;
-  margin-left: 55px;
+  margin-top: 10%; 
+  margin-left: 5%;  
   border-radius: 8px;
-  text-align:  left;
-  
+  text-align: left;
+  width: 90%; 
 }
-.s-presentacion, .s-articulo {
-  padding: 20px;
-  border-radius: 8px;
+
+.s-presentacion{
+  width: 80%;
+  padding: 5%; 
 }
+
+.s-articulo {
+  padding: 5%; 
+  width: 100%;
+}
+
 
 .s-articulo, .s-lista {
   background-color: #ffffff;
