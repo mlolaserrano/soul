@@ -4,7 +4,7 @@ class componenteMenu extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
-          <nav>
+    <nav>
       <ul class="navegacion">
         <li class="logo">
           <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
