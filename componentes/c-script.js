@@ -23,7 +23,7 @@ class componenteMenu extends HTMLElement {
         </a>
       </ul>
     </nav>
-    <div class="submenu" >
+    <div class="submenu">
       <ul class="submenu-list">
         <li><a href="calendario.html" class="bubbly-submenu">Calendario</a></li>
         <li><a href="actividades.html" class="bubbly-submenu">Actividades</a></li>
