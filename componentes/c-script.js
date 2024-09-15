@@ -10,7 +10,7 @@ class componenteMenu extends HTMLElement {
       <label for="check" class="checkbox">
           <i class="bi bi-list"></i>
       </label>
-      <a href="#" class="enlace-home">
+      <a href="/pages/home.html" class="enlace-home">
           <img src="/images/Logo.png" alt="" class="logo">
       </a>
       <ul class="iconos">
@@ -30,10 +30,10 @@ class componenteMenu extends HTMLElement {
       </ul>
 
            <ul class="paginas">
-              <li><a href="#">Calendario</a></li>
-              <li><a href="#">Actividades</a></li>
-              <li><a href="#">Mi Acompañante</a></li>
-              <li><a href="#">Recompensas</a></li>
+              <li><a href="/pages/calendario.html">Calendario</a></li>
+              <li><a href="/pages/actividades.html">Actividades</a></li>
+              <li><a href="/pages/acompañante.html">Mi Acompañante</a></li>
+              <li><a href="/pages/recompensa.html">Recompensas</a></li>
           </ul>
       </div>
   </nav>
