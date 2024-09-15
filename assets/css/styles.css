@@ -510,6 +510,90 @@ h3{
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #chat {
+    box-shadow: 2px 2px 5px #33333394;  
+    background-color: #ffffff00; /*COLOR DE FONDO CHAT BOTON*/
+border-radius: 5000px;
+
+
+    
+  }
+
+  
+  .chat-ventana {
+    position: fixed;
+    bottom: 180px;
+    right: 20px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  
+  .chat-body {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: white;
+  
+   
+  }
+  
+  
+  
+  .chat-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+  }
+  
+  .chat-footer input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .chat-footer button {
+    padding: 5px 10px;
+    background-color: var(--title-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cerrar {
+    border: none;
+    background-color: var(--title2-color);
+  }
+  
+  .mensaje-enviado {
+    color: var(--title-color);
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+}
+
 /* CALENDARIO */
 
 .calendar {
@@ -665,41 +749,6 @@ font-size: 17px;
 font-size: 15px;
 color: var(--button-color);
 } 
-@media (max-width: 768px) {
-    .s-contenedor {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-
-    .s-bienvenida {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 0;
-    }
-
-
-    .s-texto {
-      font-size: 25px;  
-
-    }
-    .s-texto h2 {  
-    
-      font-size: 17px;  
-
-    }  
-
-    .s-actividades {  
-      background-color: #f5eefa;  
-      padding: 5%;  
-      width: 100%; 
-      margin: 0 auto;  
-      box-sizing: border-box; 
-      border-radius: 25px;
-
-  }
-}
 
 
 /* Contenedor principal para organizar las secciones en columnas */
@@ -739,7 +788,7 @@ color: var(--button-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -750,25 +799,8 @@ color: var(--button-color);
     border: 1px solid var(--title-color3);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+
 }
-
-
-@media (max-width: 768px) {
-    .s-contenedor {
-        flex-direction: column;
-
-    }
-
-
-    .s-postits {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-}
-
-/* aca termina el nuevo css */
-
-
 
 	/* Barra de Progreso */
   .s-progreso1 {  
@@ -788,8 +820,6 @@ color: var(--button-color);
     animation: progreso 2s ease-out forwards;
 }
 
-
-
 .s-progreso4{
   text-align: center;
   vertical-align: middle; 
@@ -800,7 +830,7 @@ color: var(--button-color);
 
 .s-lista2, .s-lista1 {
   list-style: none;
-  font-size: 17px;
+  font-size: 16px;
   text-align: left;
   margin: 0 9%;
 }
@@ -811,6 +841,7 @@ color: var(--button-color);
 
 .s-lista{
   margin: 10px;
+  width: 550px;
  
 }
 
@@ -833,16 +864,71 @@ color: var(--button-color);
   }
 }
 
-/* Ajustes responsivos */
-@media (max-width: 768px) {
-  .s-lista2, .s-lista1 {
-    margin: 0 1%;
-    
 
+.s-imgcal{
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .s-contenedor {
+      flex-direction: column;
+      gap: 20px;
   }
 
 
+  .s-bienvenida {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0;
+  }
+
+
+  .s-texto {
+    font-size: 25px;  
+
+  }
+  .s-texto h2 {  
+  
+    font-size: 17px;  
+
+  }  
+
+  .s-actividades {  
+    background-color: #f5eefa;  
+    padding: 5%;  
+    width: 100%; 
+    margin: 0 auto;  
+    box-sizing: border-box; 
+    border-radius: 25px;
+
 }
+
+.s-contenedor {
+  flex-direction: column;
+  margin: 25px;
+
+}
+
+
+.s-postits {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.s-lista2, .s-lista1 {
+  margin: 0 1%;
+  
+
+}
+
+.s-imgcal{
+  width: 300px;
+}
+
+}
+
+
 
 .s-boton0{
   padding: 1%;
@@ -1122,6 +1208,7 @@ background-color: var(--acent-color);
 border-color: #f9d99a;
 }
 
+
 /*Acompañante - paciente */
 .s-bgc{
   background-color: #F7F7F7;
@@ -1145,6 +1232,27 @@ border-color: #f9d99a;
   
 }
 
+.s-img{
+  width: 300px;
+}
+
+.s-texti{
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .s-admi {
+    margin: 10px;
+    border-right: 1px solid #ffffff;
+
+  }
+
+  .s-img{
+    width: 200px;
+    margin: 10px;
+  }
+  
+}
 
 /*M-Recompensas*/
 
