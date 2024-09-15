@@ -599,6 +599,7 @@ h3{
     align-items: flex-start;
     margin: 5% 10%;
     gap: 100px;
+    
 }
 
 
@@ -614,9 +615,16 @@ h3{
 /* Estilo para la imagen dentro de la sección de bienvenida */
 .s-bienvenida img {
 
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
     border-radius: 50%;
+}
+.s-notaspost{ 
+  font-size: 15px;
+  padding: 5%;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color3);
+
 }
 
 
@@ -673,12 +681,13 @@ margin: 5% 0;
 
     }  
 
-    .s-actividades{
-      background-color: var(--title-color3);
-      margin: 5%;
-      padding: 5% ;
-      width: 100%;
-    }
+    .s-actividades {  
+      background-color: var(--title-color3);  
+      padding: 5%;  
+      width: calc(100% - 10%); /* 100% menos margen de los dos lados */  
+      margin: 0 auto;  
+      box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */  
+  }
 }
 
 
