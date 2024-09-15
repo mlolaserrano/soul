@@ -1154,6 +1154,16 @@ border-color: #f9d99a;
   right: 0;
 }
 
+@media screen and (max-width:600px){
+  .M-Recompensas{
+    display: block;
+  text-align: center;
+}
+
+}
+
+
+
 /*boton redi canjear*/
 #M-Canjear{
   color:white;
