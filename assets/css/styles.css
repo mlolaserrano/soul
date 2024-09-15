@@ -513,7 +513,7 @@ h3{
 @media (max-width: 768px) {
   #chat {
     box-shadow: 2px 2px 5px #33333394;  
-    background-color: #ffffff00; /*COLOR DE FONDO CHAT BOTON*/
+    background-color: #ffffff; /*COLOR DE FONDO CHAT BOTON*/
 border-radius: 5000px;
 
 
@@ -866,7 +866,7 @@ color: var(--button-color);
 
 
 .s-imgcal{
-  width: 500px;
+  width: 600px;
 }
 
 @media (max-width: 768px) {
