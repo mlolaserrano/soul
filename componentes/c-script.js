@@ -5,32 +5,37 @@ class componenteMenu extends HTMLElement {
     this.innerHTML =
       `
     <nav>
-      <ul class="navegacion" id="navegacion">
-        <li class="logo">
-          <a href="/pages/home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
-        </li>
-    
-        <li class="busqueda">
-          <div class="search-container">
-            <input type="text" placeholder="Buscar..." class="buscador1">
-            <i class="fi fi-ts-search-heart" style="font-size: 25px;"></i>
-        </div>
-        </li>
-        <li class="pregunta"><i class="fi fi-tr-seal-question"></i></li>
-        <li class="usuario"><i class="fi fi-tr-man-head"></i></li>
-        <a href="/index.html" class="sin-formato">
-          <li class="salir"><i class="fi fi-ts-sign-out-alt"></i></li>
-        </a>
+      <div class="menu">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbox">
+          <i class="bi bi-list"></i>
+      </label>
+      <a href="#" class="enlace-home">
+          <img src="/images/Logo.png" alt="" class="logo">
+      </a>
+      <ul class="iconos">
+          <li class="icon">
+              <input type="search" id="search">
+              <label for="search" class="search"></label>
+          </li>
+          <li class="icon">
+              <i class="bi bi-patch-question"></i>
+          </li>
+          <li class="icon">
+              <i class="bi bi-person"></i>
+          </li>
+          <li class="icon">
+              <i class="bi bi-x-circle"></i>
+          </li>
       </ul>
-    </nav>
-    <div class="submenu" id="submenu">
-      <ul class="submenu-list">
-        <li><a href="calendario.html" class="bubbly-submenu">Calendario</a></li>
-        <li><a href="actividades.html" class="bubbly-submenu">Actividades</a></li>
-        <li><a href="acompañante.html" class="bubbly-submenu">Mi Acompañante</a></li>
-        <li><a href="recompensa.html" class="bubbly-submenu">Recompensas</a></li>
-      </ul>
-    </div>
+
+           <ul class="paginas">
+              <li><a href="#">Calendario</a></li>
+              <li><a href="#">Actividades</a></li>
+              <li><a href="#">Mi Acompañante</a></li>
+              <li><a href="#">Recompensas</a></li>
+          </ul>
+      </div>
   </nav>
       `;
   }

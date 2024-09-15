@@ -19,7 +19,10 @@
 
 }
 
-
+*{
+  text-decoration: none;
+  list-style: none;
+}
 
 body {
   background-color: rgb(254, 255, 255);
@@ -27,6 +30,7 @@ body {
   margin: 0;  
   padding: 0;  
   box-sizing: border-box; 
+  
   
 }
 
@@ -206,212 +210,111 @@ h3{
 }
 
 /*MENU*/
-
-.sin-formato {
-  text-decoration: none;
-  color: inherit;
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sin-formato:visited,
-.sin-formato:focus,
-.sin-formato:hover,
-.sin-formato:active {
-  color: inherit;
-  text-decoration: none;
-}
-
-
-.navegacion {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-  padding: 25px;
-  margin: 25px;
-}
-
-.navegacion .logo {
-  margin-right: auto;
-}
-
-.navegacion li {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.navegacion i {
-  font-size: 24px;
-  width: 32px;
-  height: 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-  border: 1px solid #AEE0DC;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px;
-  max-width: 300px;
-  position: relative;
-}
-
-.buscador1 {
-  border: none;
-  padding: 8px;
-  border-radius: 5px;
-  width: 100%;
-  outline: none;
-  padding-right: 30px;
-  box-sizing: border-box;
-}
-
-.buscador1::placeholder {
-  color: #AEE0DC;
-}
-
-.search-container .fi {
+.enlace-home{
   position: absolute;
-  right: 10px;
-  color: #AEE0DC;
-  font-size: 16px;
+  padding: 20px 50px;
 }
 
-.buscador2 {
-  display: none;
-
+.logo{
+  height: 40px;
 }
 
-.pregunta,
-.usuario,
-.salir {
-  color: var(--title-color);
+.icon{
+  font-size: 20px;
 }
 
-/*Submenu*/
-/*DISEÑO DE ANIMACION ADAPTADO: CREADOR ORIGINAL https://codepen.io/nourabusoud/pen/ypZzMM*/
-.submenu {
-  background-color: var(--title-color3);
-}
-
-.submenu-list {
-  list-style-type: none;
-  margin: 25px;
-  padding: 25px;
-}
-
-.submenu-list li {
-  display: inline;
+nav .iconos{
+  float: right;
   margin-right: 20px;
 }
 
-.submenu-list li a {
-  text-decoration: none;
-  color: #333;
-  margin: 10px;
-  padding: 10px;
-  position: relative;
+nav .iconos .icon {
   display: inline-block;
-  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-
+  line-height: 50px;
+  margin: 0 5px;
 }
 
-.bubbly-submenu:before,
-.bubbly-submenu:after {
-  position: absolute;
-  content: '';
+.menu{
   display: block;
-  width: 140%;
-  height: 100%;
-  left: -20%;
-  z-index: -1000;
-  transition: all ease-in-out 0.5s;
-  background-repeat: no-repeat;
 }
-
-.bubbly-submenu:before {
+.checkbox{
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
   display: none;
-  top: -75%;
-  background-image:
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, transparent 20%, var(--button-color4) 20%, transparent 30%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
 }
 
-.bubbly-submenu:after {
+#check{
   display: none;
-  bottom: -75%;
-  background-image:
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, var(--button-color4) 15%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%),
-    radial-gradient(circle, var(--button-color4) 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
 }
 
-.bubbly-submenu:hover {
-  transform: scale(1.05);
-
+.paginas{
+  display: flex;
+  background: #caebe8;
+  width: 100%;
+  height: 20px;
+  padding: 25px;
 }
 
-.bubbly-submenu.animate:before {
-  display: block;
-  animation: topBubbles ease-in-out 0.75s forwards;
+.paginas a{
+  padding: 20px;
+  color: black;
 }
 
-.bubbly-submenu.animate:after {
-  display: block;
-  animation: bottomBubbles ease-in-out 0.75s forwards;
+
+@media (max-width: 600px) {
+  .menu{
+      display: flow-root;
+  }
+  .checkbox{
+      display: block;
+  }
+  .enlace-home{
+      padding-left: 20px;
+  }
+
+  .paginas{
+      display: inline;
+      height: 100%;
+      line-height: 50px;
+  }
+
+  .iconos{
+      display: none;
+  }
+
+
+ul{
+      position: fixed;
+      background: rgba(114, 180, 168, 0.297);
+      top: 80px;
+      left: -200%;
+      text-align: center;
+      transition: all .5s;
+  }
+
+  nav ul li{
+      margin: 20px 0;
+  }
+
+  nav ul li a{
+      font-size: 15px;
+  }
+
+  li a:hover, li a.active{
+      background: #5DC1B9;
+      color: white;
+      border-radius: 15px;
+  }
+
+  #check:checked ~ ul{
+      left: 0;
+  }
 }
 
-@keyframes topBubbles {
-  0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
-  }
-
-  50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-  }
-
-  100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-
-@keyframes bottomBubbles {
-  0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
-  }
-
-  50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
-  }
-
-  100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
+/*FIN MENU*/
 
 /*CHAT*/
 
