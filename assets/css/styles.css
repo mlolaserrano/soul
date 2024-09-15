@@ -655,7 +655,16 @@ margin: 5% 0;
 
 }
 
+.s-pendientes{
+  font-family: 'Poppins', sans-serif;
+font-size: 17px;
+}
 
+.s-pendientes2{
+  font-family: 'Poppins', sans-serif;
+font-size: 15px;
+color: var(--button-color);
+} 
 @media (max-width: 768px) {
     .s-contenedor {
         flex-direction: column;
@@ -682,11 +691,13 @@ margin: 5% 0;
     }  
 
     .s-actividades {  
-      background-color: var(--title-color3);  
+      background-color: #f5eefa;  
       padding: 5%;  
-      width: calc(100% - 10%); /* 100% menos margen de los dos lados */  
+      width: 100%; 
       margin: 0 auto;  
-      box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */  
+      box-sizing: border-box; 
+      border-radius: 25px;
+
   }
 }
 
