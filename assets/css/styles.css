@@ -866,7 +866,7 @@ color: var(--button-color);
 
 
 .s-imgcal{
-  width: 600px;
+  width: 11500px;
 }
 
 @media (max-width: 768px) {
@@ -923,7 +923,7 @@ color: var(--button-color);
 }
 
 .s-imgcal{
-  width: 300px;
+  width: 5500px;
 }
 
 }
