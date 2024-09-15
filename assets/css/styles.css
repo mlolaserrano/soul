@@ -238,6 +238,7 @@ nav .iconos .icon {
 
 .menu{
   display: block;
+
 }
 .checkbox{
   font-size: 30px;
@@ -281,6 +282,7 @@ nav .iconos .icon {
       display: inline;
       height: 100%;
       line-height: 50px;
+      z-index: 1000;
   }
 
   .iconos{
