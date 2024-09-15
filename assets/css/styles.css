@@ -513,7 +513,7 @@ h3{
 @media (max-width: 768px) {
   #chat {
     box-shadow: 2px 2px 5px #33333394;  
-    background-color: #ffffff; /*COLOR DE FONDO CHAT BOTON*/
+    background-color: #ffffff00; /*COLOR DE FONDO CHAT BOTON*/
 border-radius: 5000px;
 
 
@@ -866,7 +866,7 @@ color: var(--button-color);
 
 
 .s-imgcal{
-  width: 11500px;
+  width: 500px;
 }
 
 @media (max-width: 768px) {
@@ -923,7 +923,7 @@ color: var(--button-color);
 }
 
 .s-imgcal{
-  width: 5500px;
+  width: 300px;
 }
 
 }
@@ -1232,9 +1232,10 @@ border-color: #f9d99a;
   
 }
 
-.s-img{
-  width: 300px;
+.s-imgadmi{
+width: 50%;
 }
+
 
 .s-texti{
   font-size: 17px;
@@ -1247,9 +1248,8 @@ border-color: #f9d99a;
 
   }
 
-  .s-img{
-    width: 200px;
-    margin: 10px;
+  .s-imgadmi{
+width: 200px;
   }
   
 }
