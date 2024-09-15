@@ -862,10 +862,7 @@ h3{
 }
 
 @media screen and (max-width:600px){
- /* .M-foto{
 
-  }
-*/
   .M-MiAcompañante{
     display: block;
     text-align: center;
@@ -874,29 +871,28 @@ h3{
   .M-BotonesA{
     width: 80%;
     height: auto;
-    margin: 8px;
   }
 
   .M-textoPaciente{
-    font-size: 13px;
+    font-size: 90%;
   }
 
   .tituloAcom{
-    font-size: 13px;
+    font-size: 90%;
 
   }
   .M-Cajita1{
-    width: 113px;
-    margin: 2px;
+    width: 30%;
+    height: auto;
     align-content: center;
   }
   .M-Cajita2{
-    width: 113px;
-    margin: 2px;
+    width: 30%;
+    height: auto;
   }
   .M-Cajita3{
-    width: 113px;
-    margin: 2px;
+    width: 30%;
+    height: auto;
   }
 }
 
