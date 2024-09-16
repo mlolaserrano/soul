@@ -230,15 +230,18 @@ h3{
   border: 1px solid #aee0dc;
   background: white;
   border-radius: 5px;
-  
 }
 
 .buscador1{
   border:none;
   box-sizing: border-box;
   padding-right: 30px;
+  border-radius: 5px;
 }
 
+#salir{
+  color: #aee0dc;
+}
 
 nav .iconos{
   float: right;

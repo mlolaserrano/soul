@@ -27,7 +27,7 @@ class componenteMenu extends HTMLElement {
           </li>
           <li class="icon">
               <a href="/index.html">
-              <i class="fi fi-ts-sign-out-alt"></i>
+              <i class="fi fi-ts-sign-out-alt" id="salir"></i>
               </a>
           </li>
       </ul>
