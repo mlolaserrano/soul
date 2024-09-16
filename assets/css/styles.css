@@ -230,6 +230,7 @@ h3{
   border: 1px solid #aee0dc;
   background: white;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .buscador1{
@@ -237,7 +238,9 @@ h3{
   box-sizing: border-box;
   padding-right: 30px;
   border-radius: 5px;
+
 }
+
 
 #salir{
   color: #aee0dc;

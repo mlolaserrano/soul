@@ -17,7 +17,7 @@ class componenteMenu extends HTMLElement {
           <li class="icon">
               <div class="search-container">
             <input type="text" placeholder="Buscar..." class="buscador1">
-            <i class="fi fi-ts-search-heart" style="font-size: 25px;"></i>
+            <i class="fi fi-ts-search-heart" style="font-size: 20px;"></i>
           </li>
           <li class="icon">
               <i class="fi fi-tr-seal-question"></i>
