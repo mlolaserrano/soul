@@ -221,8 +221,24 @@ h3{
 
 .icon{
   font-size: 20px;
+  color: #aee0dc;
   
 }
+
+
+.search-container {
+  border: 1px solid #aee0dc;
+  background: white;
+  border-radius: 5px;
+  
+}
+
+.buscador1{
+  border:none;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
 
 nav .iconos{
   float: right;

@@ -15,17 +15,20 @@ class componenteMenu extends HTMLElement {
       </a>
       <ul class="iconos">
           <li class="icon">
-              <input type="search" id="search">
-              <label for="search" class="search"></label>
+              <div class="search-container">
+            <input type="text" placeholder="Buscar..." class="buscador1">
+            <i class="fi fi-ts-search-heart" style="font-size: 25px;"></i>
           </li>
           <li class="icon">
-              <i class="bi bi-patch-question"></i>
+              <i class="fi fi-tr-seal-question"></i>
           </li>
           <li class="icon">
-              <i class="bi bi-person"></i>
+               <i class="fi fi-tr-man-head"></i>
           </li>
           <li class="icon">
-              <i class="bi bi-x-circle"></i>
+              <a href="/index.html">
+              <i class="fi fi-ts-sign-out-alt"></i>
+              </a>
           </li>
       </ul>
 
