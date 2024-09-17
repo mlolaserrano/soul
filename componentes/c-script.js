@@ -60,7 +60,7 @@ class componenteChat extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
-           <button id="chat"><img src="../../images/Chat.png" width="150"></button>
+           <button id="chat"><img src="../images/Chat.png" width="150"></button>
 <div id="chatVentana" class="chat-ventana hidden">
   <div class="chat-header">
     <span>Chat</span>
