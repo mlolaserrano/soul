@@ -10,8 +10,8 @@ class componenteMenu extends HTMLElement {
       <label for="check" class="checkbox">
           <i class="bi bi-list"></i>
       </label>
-      <a href="/pages/home.html" class="enlace-home">
-          <img src="/images/Logo.png" alt="" class="logo">
+      <a href="../pages/home.html" class="enlace-home">
+          <img src="../images/Logo.png" alt="" class="logo">
       </a>
       <ul class="iconos">
           <li class="icon">
@@ -26,17 +26,17 @@ class componenteMenu extends HTMLElement {
                <i class="fi fi-tr-man-head"></i>
           </li>
           <li class="icon">
-              <a href="/index.html">
+              <a href="../index.html">
               <i class="fi fi-ts-sign-out-alt" id="salir"></i>
               </a>
           </li>
       </ul>
 
            <ul class="submenu-list">
-              <li><a href="/pages/calendario.html" class="bubbly-submenu">Calendario</a></li>
-              <li><a href="/pages/actividades.html" class="bubbly-submenu">Actividades</a></li>
-              <li><a href="/pages/acompañante.html" class="bubbly-submenu">Mi Acompañante</a></li>
-              <li><a href="/pages/recompensa.html" class="bubbly-submenu">Recompensas</a></li>
+              <li><a href="../pages/calendario.html" class="bubbly-submenu">Calendario</a></li>
+              <li><a href="../pages/actividades.html" class="bubbly-submenu">Actividades</a></li>
+              <li><a href="../pages/acompañante.html" class="bubbly-submenu">Mi Acompañante</a></li>
+              <li><a href="../pages/recompensa.html" class="bubbly-submenu">Recompensas</a></li>
           </ul>
       </div>
   </nav>
@@ -60,7 +60,7 @@ class componenteChat extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
-           <button id="chat"><img src="/images/Chat.png" width="150"></button>
+           <button id="chat"><img src="../images/Chat.png" width="150"></button>
 <div id="chatVentana" class="chat-ventana hidden">
   <div class="chat-header">
     <span>Chat</span>
@@ -87,7 +87,7 @@ class componenteAdm extends HTMLElement {
            <nav>
        <ul class="navegacion">
          <li class="logo">
-           <a href="/pages/admin/(adm)home.html"><img src="/images/Logo.png" alt="Logo de SOUL"></a>
+           <a href="../../pages/admin/(adm)home.html"><img src="../../images/Logo.png" alt="Logo de SOUL"></a>
          </li>
          <li class="busqueda">
            <div class="search-container">

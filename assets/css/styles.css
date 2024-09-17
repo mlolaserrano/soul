@@ -105,14 +105,14 @@ h3{
 /* LOG IN */
 
 .bg {
-  background-image: url(/images/bg.svg);
+  background-image: url(../../images/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg2 {
-  background-image: url(/images/bg2.svg);
+  background-image: url(../../images/bg2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -139,14 +139,14 @@ h3{
 
 .lado-izquierdo-login {
   flex: 1;
-  background-image: url('/images/login\ paciente.png');
+  background-image: url('../../images/login paciente.png');
   background-size: cover;
   background-position: center;
 }
 
 .lado-izquierdo-login2 {
   flex: 1;
-  background-image: url('./images/loginprof.png');
+  background-image: url('../../images/loginprof.png');
   background-size: cover;
   background-position: center;
 }
@@ -914,6 +914,7 @@ color: var(--button-color);
     width: 45%;
   }
 }
+
 
 
 .s-imgcal{
