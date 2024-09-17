@@ -225,6 +225,9 @@ h3{
   
 }
 
+.icon a{
+  text-decoration: none;
+}
 
 .search-container {
   border: 1px solid #aee0dc;
