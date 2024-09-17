@@ -309,7 +309,7 @@ a{
 
   .submenu-list{
       display: inline;
-      height: 50%;
+      height: 70%;
       line-height: 50px;
   }
 
@@ -343,6 +343,7 @@ ul{
 
   #check:checked ~ ul{
       left: 0;
+      z-index: 2000;
   }
 }
 
@@ -354,12 +355,10 @@ ul{
 
 .submenu-list {
   list-style-type: none;
-  margin: 25px;
   padding: 25px;
 }
 
 .submenu-list li {
-  display: inline;
   margin-right: 20px;
 }
 
