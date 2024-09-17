@@ -139,14 +139,14 @@ h3{
 
 .lado-izquierdo-login {
   flex: 1;
-  background-image: url('/images/login\ paciente.png');
+  background-image: url('./images/login\ paciente.png');
   background-size: cover;
   background-position: center;
 }
 
 .lado-izquierdo-login2 {
   flex: 1;
-  background-image: url('/images/loginprof.png');
+  background-image: url('./images/loginprof.png');
   background-size: cover;
   background-position: center;
 }
