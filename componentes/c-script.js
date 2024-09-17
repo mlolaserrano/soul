@@ -79,6 +79,30 @@ class componenteChat extends HTMLElement {
 }
 customElements.define('componente-chat', componenteChat);
 
+// Chat admin
+class componenteChat extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML =
+      `
+           <button id="chat"><img src="../../images/Chat.png" width="150"></button>
+<div id="chatVentana" class="chat-ventana hidden">
+  <div class="chat-header">
+    <span>Chat</span>
+    <button id="cerrar" class="cerrar">X</button>
+  </div>
+  <div class="chat-body" id="chatBody">
+    <p>¡Hola Graciela! ¿En que te puedo ayudar?</p>
+  </div>
+  <div class="chat-footer">
+    <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
+    <button id="enviar">Enviar</button>
+  </div>
+</div>
+       `;
+  }
+}
+customElements.define('componente-chatadmin', componenteChatadmin);
+
 // Menu Admin
 class componenteAdm extends HTMLElement {
   connectedCallback() {
