@@ -222,7 +222,7 @@ h3{
 .icon{
   font-size: 20px;
   color: #19978d;
-  font-weight: 50px;
+  font-weight: 500px;
 }
 
 .icon a{
@@ -234,7 +234,7 @@ h3{
   background: white;
   border-radius: 5px;
   font-size: 15px;
-  border:none;
+  
 }
 
 .buscador1{
@@ -242,9 +242,11 @@ h3{
   box-sizing: border-box;
   padding-right: 30px;
   border-radius: 5px;
-
+  
 }
-
+.buscador1 input{
+  border: none;
+}
 .fi-ts-search-heart{
   margin: 10px;
 }
