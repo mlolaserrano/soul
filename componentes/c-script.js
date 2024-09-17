@@ -32,11 +32,11 @@ class componenteMenu extends HTMLElement {
           </li>
       </ul>
 
-           <ul class="paginas">
-              <li><a href="/pages/calendario.html">Calendario</a></li>
-              <li><a href="/pages/actividades.html">Actividades</a></li>
-              <li><a href="/pages/acompañante.html">Mi Acompañante</a></li>
-              <li><a href="/pages/recompensa.html">Recompensas</a></li>
+           <ul class="submenu-list">
+              <li><a href="/pages/calendario.html" class="bubbly-submenu">Calendario</a></li>
+              <li><a href="/pages/actividades.html" class="bubbly-submenu">Actividades</a></li>
+              <li><a href="/pages/acompañante.html" class="bubbly-submenu">Mi Acompañante</a></li>
+              <li><a href="/pages/recompensa.html" class="bubbly-submenu">Recompensas</a></li>
           </ul>
       </div>
   </nav>
