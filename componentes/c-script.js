@@ -80,7 +80,7 @@ class componenteChat extends HTMLElement {
 customElements.define('componente-chat', componenteChat);
 
 // Chat admin
-class componenteChat extends HTMLElement {
+class componenteChatAdmin extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
