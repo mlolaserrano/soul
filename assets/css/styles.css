@@ -224,8 +224,9 @@ h3{
   color: #aee0dc;
   
 }
-.icon i li a{
+.icon i a{
   text-decoration: none;
+  !important;
 }
 
 .search-container {
