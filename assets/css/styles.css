@@ -1492,8 +1492,9 @@ border-radius: 15px;
 
 /*Recompensas de Admin*/
 @media (max-width:600px) {
+
   .L-fotoRecompensas{
-    width: 80%;
+    width: 60%;
     height: auto;
    }
   
