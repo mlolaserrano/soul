@@ -1492,12 +1492,16 @@ border-radius: 15px;
 
 /*Recompensas de Admin*/
 @media (max-width:600px) {
-
-  .L-imagenrecompensa{
-    width: 40%;
-    height: auto;
-   }
-  
+  .L-fotoRecompensas {
+   width: 70%;
+   height: auto;
+  }
+  .L-TextoRecompensas{
+    text-align: center;
+    justify-content: center;
+    margin: -120px;
+    padding: 70px;
+  }
 }
 
 .L-Recompensas {
@@ -1508,14 +1512,20 @@ border-radius: 15px;
 
 
 .L-fotoRecompensas {
-  margin: 25px;
-  padding: 25px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+.L-imagenrecompensa{
+  width: 150px;
+  padding: 15px;
 }
 
 
 .L-TextoRecompensas {
   font-size: small;
- 
+  margin: 5px;
+  padding: 10px;
 }
 
 
