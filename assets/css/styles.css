@@ -1493,14 +1493,14 @@ border-radius: 15px;
 /*Recompensas de Admin*/
 @media (max-width:600px) {
   .L-fotoRecompensas {
-   width: 80%;
+   width: 70%;
    height: auto;
   }
   .L-TextoRecompensas{
     text-align: center;
     justify-content: center;
-    margin: -110px;
-    padding: 80px;
+    margin: -120px;
+    padding: 70px;
   }
 }
 
@@ -1512,8 +1512,13 @@ border-radius: 15px;
 
 
 .L-fotoRecompensas {
-  margin: 15px;
+  margin: 20px;
   padding: 25px;
+  width: 400px;
+}
+.L-imagenrecompensa{
+  width: 150px;
+  padding: 15px;
 }
 
 
