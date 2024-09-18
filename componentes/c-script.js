@@ -130,7 +130,7 @@ class componenteAdm extends HTMLElement {
                <i class="fi fi-tr-man-head"></i>
           </li>
           <li class="icon">
-              <a href="../index.html">
+              <a href="../../pages/admin/(adm)login.html">
               <i class="fi fi-ts-sign-out-alt" id="salir"></i>
               </a>
           </li>
