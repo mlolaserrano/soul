@@ -30,7 +30,7 @@ function InicioSesion() {
 
 
                 // Redirigir al pasajero
-                window.location.href = '../../pages/home.html';
+                window.location.href = 'pages/home.html';
             } else if (usuarios[index].rol == 2) {
 
 

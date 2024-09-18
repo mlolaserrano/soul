@@ -44,7 +44,7 @@
 
 <body class="bg2">
 
-  <section class="pagina-login">
+  <section class="pagina-login"  id="login-admi">
     <div class="contenedor-login">
       <div class="lado-izquierdo-login2">
         <!-- Imagen ya en el CSS -->
@@ -53,10 +53,10 @@
         <h1>Inicia sesión</h1>
         <h3 id="iniciar">Cada día un poquito más feliz</h3>
         <form action="" id="formulario">
-          <input type="text" id="mail" class="login-input" placeholder="Ingresa tu usuario" required>
-          <input type="password" id="contraseña" class="login-input" placeholder="Ingresa tu contraseña" required>
+          <input type="text" id="mail" class="login-input" placeholder="Ingresa tu usuario">
+          <input type="password" id="contraseña" class="login-input" placeholder="Ingresa tu contraseña">
           <button type="button" id="BotonI" class="login-button" onclick="InicioSesion()">Iniciar sesión</button>
-          <p class="s-letra">¿Sos paciente? Ingresá <a href="../../index.html" class="s-login-link">acá</a></p>
+          <p class="s-letra">¿Sos paciente? Ingresá <button class="s-login-link" id="login-pac">acá</button></p>
           <br>
         </form>
       </div>
@@ -74,6 +74,7 @@
 
 
   <script src="../../assets/js/scripts.js"></script>
+  <script src="app.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

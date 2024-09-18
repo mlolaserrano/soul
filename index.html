@@ -44,7 +44,7 @@
 
 <body class="bg">
 
-  <section class="pagina-login">
+  <section class="pagina-login" id="login-admi">
     <div class="contenedor-login">
       <div class="lado-izquierdo-login">
         <!-- Imagen en CSS -->
@@ -53,11 +53,12 @@
         <h1>Inicia sesión</h1>
         <h3 id="iniciar">Cada día un poquito más feliz</h3>
         <form action="" id="formulario">
-          <input type="text" id="mail" class="login-input" placeholder="Ingresa tu usuario" required>
-          <input type="password" id="contraseña" class="login-input" placeholder="Ingresa tu contraseña" required>
+          <input type="text" id="mail" class="login-input" placeholder="Ingresa tu usuario" >
+          <input type="password" id="contraseña" class="login-input" placeholder="Ingresa tu contraseña" >
           <button type="button" id="BotonI" class="login-button" onclick="InicioSesion()">Iniciar sesión</button>
-          <p class="s-letra">¿Sos parte del equipo? Ingresá <a href="./pages/admin/(adm)login.html"
-              class="login-link">acá</a></p>
+          <p class="s-letra">¿Sos parte del equipo? Ingresá <button
+              class="login-link" id="login-admi">acá</button></p>
+
         </form>
       </div>
     </div>
