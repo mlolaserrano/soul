@@ -1231,11 +1231,7 @@ color: var(--button-color);
   align-items: center;
   justify-content: center;
 }
-/*
-.L-CarruselModal{
-  width: 400px;
-  height: auto;
-}*/
+
 
 .carousel-control-prev-icon{
   background-color: #aca7a7b4;
@@ -1495,6 +1491,13 @@ border-radius: 15px;
 }
 
 /*Recompensas de Admin*/
+@media (max-width:600px) {
+  .L-fotoRecompensas{
+    width: 80%;
+    height: auto;
+   }
+  
+}
 
 .L-Recompensas {
   display: flex;
