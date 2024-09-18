@@ -1524,7 +1524,8 @@ border-radius: 15px;
 
 .L-TextoRecompensas {
   font-size: small;
- 
+  margin: 5px;
+  padding: 10px;
 }
 
 
