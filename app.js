@@ -7,7 +7,7 @@ function loadPage(pageUrl) {
             return response.text();
         })
         .then(html => {
-            document.getElementById('login-admi').innerHTML = html;
+            document.getElementById('contenedor-login-admi').innerHTML = html;
         })
         .catch(error => {
             console.error('Hubo un problema al cargar la página:', error);
@@ -15,11 +15,11 @@ function loadPage(pageUrl) {
 }
 
 document.getElementById('login-admi').addEventListener('click', function() {
-    loadPage('pages/(adm)login.html');
+    loadPage('(adm)login.html');
 
 });
 
-document.getElementById('login-id').addEventListener('click', function() {
+document.getElementById('login-pac').addEventListener('click', function() {
     loadPage('login.html');
 
     
