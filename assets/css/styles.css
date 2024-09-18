@@ -1496,11 +1496,6 @@ border-radius: 15px;
 
 /*Recompensas de Admin*/
 
-@media screen and (max-width:600px){
- 
-
-}
-
 .L-Recompensas {
   display: flex;
   align-items: center;
