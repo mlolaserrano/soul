@@ -30,12 +30,12 @@ function InicioSesion() {
 
 
                 // Redirigir al pasajero
-                window.location.href = '/pages/home.html';
+                window.location.href = 'pages/home.html';
             } else if (usuarios[index].rol == 2) {
 
 
                 // Redirigir al administrador
-                window.location.href = '/pages/admin/(adm)home.html';
+                window.location.href = '../../pages/admin/(adm)home.html';
             }
             return;
         }
@@ -67,6 +67,8 @@ var bubblySubmenus = document.getElementsByClassName("bubbly-submenu");
 for (var i = 0; i < bubblySubmenus.length; i++) {
     bubblySubmenus[i].addEventListener('click', animateSubmenu, false);
 }
+
+//menu hamburguesa
 
 // Chat 
 
