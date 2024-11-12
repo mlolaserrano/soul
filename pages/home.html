@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Conviértete en esa persona que siempre soñaste ser." />
 
   <meta name="keywords"
@@ -26,11 +26,6 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
-      <!--Playpen-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-
   <!--Coustard-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +43,6 @@
 
   <!--Signo mas, agregar-->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 
   <!--Buscar-->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
@@ -61,84 +55,80 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <!--Hoja de estilos-->
-  <link rel="stylesheet" href="../assets/css/styles.css" />
-
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 
 
 <body>
-    <!--Carga-->
-    <section>
-      <div id="spinner" class="spinner" style="display: none;"></div>
-    </section>
-    <!--Fin de carga-->
   <header>
 
     <componente-menu></componente-menu>
 
-  </header> 
 
+  </header>
 
-    <section class="s-contenedor">
-      <div class="s-bienvenida">
-          <img src="../images/Avatar.png" alt="" class="s-img">
-
-
-          <div class="s-texto">
-              <h1  class="s-texto">Hola, Juana</h1>
-              <br>
-              <h2  class="s-texto" >¿Cómo te sentís el día de hoy? <i class="fi fi-rr-add" style="font-size: 25px; color:darkcyan;"></i></h2>
-          </div>
-      </div>
-     
-      <aside class="s-actividades">
-          <div class="s-margenes">
-            <div class="s-centitulo"> 
-             <h3 class="s-pendientes">Tenés desafíos pendientes</h3>
-          <h4 class="s-pendientes2">Tu progreso:</h4>
-        </div>
-          <div class="s-progreso1">
-            <div class="s-progreso2" id="s-progreso3">
-              <p class="s-progreso4">45%</p>
-            </div>
-          </div>
-          <div class="s-lista">
-            <ul class="s-lista1">
-              <li class="s-lista2">
-                <div class="s-lista5">
-                  <i class="fi fi-tr-badge-check" style="color: #b95dd4;"></i>
-                  <p style="color: #b695c0;">Ejercicio regular</p>
-                </div>
-              </li>
-              <li class="s-lista2">
-                <div class="s-lista5">
-                  <i class="fi fi-tr-badge-check" style="color: #b95dd4;"></i>
-                  <p style="color: #b695c0;">Meditación diaria</p>
-                </div>
-              </li>
-              <li class="s-lista2">
-                <div class="s-lista5">
-                  <i class="fi fi-tr-badge-check" style="color: #a79fa7;"></i>
-                  <p style="color: #a79fa7;">Conexión social</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-
-          <div>
-              <button class="s-boton0">Vista Completa</button>
-          </div>
-        </div>
-
-      </aside>
+  <!--Carga-->
+  <section>
+    <div id="spinner" class="spinner" style="display: none;"></div>
   </section>
-    
+  <!--Fin de carga-->
 
-  <section class="s-contenedor2">
-    <!-- Sección Calendario Emocional -->
-    <section class="s-calendario">
-    
+  <main>
+    <!-- Contenedor para las columnas -->
+    <div class="s-columnashome">
+      <!-- Bienvenida -->
+      <section class="s-presentacion">
+        <img src="/images/Avatar.png" alt="" style="width: 400px;" class="s-img">
+        <div class="s-dividir">
+          <h1>¡Buenos Días, Lola!</h1>
+          <br>
+          <h3>¿Qué tal tu día? <i class="fi fi-tr-add" style="color: #5dc1b9;"></i></h3>
+        </div>
+      </section>
+
+      <!-- Actividades Pendientes, vista previa -->
+
+      <article class="s-articulo">
+        <h3>Tenés desafíos pendientes</h3>
+        <h4>Tu progreso:</h4>
+        <div class="s-progreso1">
+          <div class="s-progreso2" id="s-progreso3">
+            <p class="s-progreso4">45%</p>
+          </div>
+        </div>
+        <div class="s-lista">
+          <ul class="s-lista1">
+            <li class="s-lista2">
+              <div class="s-lista5">
+                <i class="fi fi-tr-badge-check" style="color: #b95dd4;"></i>
+                <p style="color: #b695c0;">Ejercicio regular</p>
+              </div>
+            </li>
+            <li class="s-lista2">
+              <div class="s-lista5">
+                <i class="fi fi-tr-badge-check" style="color: #b95dd4;"></i>
+                <p style="color: #b695c0;">Meditación diaria</p>
+              </div>
+            </li>
+            <li class="s-lista2">
+              <div class="s-lista5">
+                <i class="fi fi-tr-badge-check" style="color: #a79fa7;"></i>
+                <p style="color: #a79fa7;">Conexión social</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+
+
+
+
+    <!--Calendario-->
+    <section>
+
+      <section class="s-columnas">
         <div>
           <div class="s-centrar">
             <h3>Tabla de Emociones</h3>
@@ -174,28 +164,35 @@
             <button class="BotonConfirm" id="confirm">Confirmar</button>
           </div>
         </div>
-    </section>
-
-    <!-- Sección Mis Notas -->
-    <section class="s-notas">
-        <h1>Mis Notas</h1>
-        <div class="s-postits">
-            <div class="s-postit"> <p class="s-notaspost"> Hoy fui a caminar con una amiga </p></div>
-            <div class="s-postit"> <p class="s-notaspost"> Hoy fue mi segunda clase de pilates </p></div>
-            <div class="s-postit"><p class="s-notaspost"> Ayer a la noche cocine pastas </p></div>
-            <div class="s-postit" style="display: flex; justify-content: center; align-items: center;">  
-              <i class="fi fi-rr-add" style="font-size: 25px; color: darkcyan;"></i>  
-          </div>     
-        </div>
-    </section>
-</section>
 
 
 
+        <div class="container text-center">
+          <h3 class="s-titulo3">Mis notas</h3>
+          <div class="s-notitas">
+            <div class="row">
+              <div class="col-6 col-sm-3">
+                <div class="s-postit"></div>
+
+
+                <div class="s-postit"></div>
+              </div>
+              <div class="col-6 col-sm-3">
+                <div class="s-postit"></div>
+                <div class="s-agregar">
+                  <div class="s-postit2"><br><i class="fi fi-tr-add"></i></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+      </section>
 
 
 
 
+  </main>
 
   <footer>
 
@@ -210,8 +207,8 @@
   </footer>
 
 
-  <script src="../componentes/c-script.js"></script>
-  <script src="../assets/js/scripts.js"></script>
+  <script src="/componentes/c-script.js"></script>
+  <script src="/assets/js/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
