@@ -15,14 +15,10 @@ function loadPage(pageUrl) {
 }
 
 document.getElementById('login-admi').addEventListener('click', function() {
-    loadPage('(adm)login.html');
-
+    window.location.href = '(adm)login.html'; 
 });
 
 document.getElementById('login-pac').addEventListener('click', function() {
-    loadPage('login.html');
-
-    
+    window.location.href = 'login.html'; 
 });
-
 
