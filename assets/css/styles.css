@@ -1986,7 +1986,7 @@ font-size: 14px;
 }*/
 
 .Tareasl button {
-background-color: #46594a;
+background-color: #4e4659;
 color: white;
 border: none;
 padding: 10px 15px;
@@ -2001,7 +2001,7 @@ align-items: center;
 }
 
 button:hover {
-background-color: #6e9075;
+background-color: #5e4d80;
 }
 
 #taskList span {
