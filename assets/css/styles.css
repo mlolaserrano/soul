@@ -2022,19 +2022,5 @@ font-size: 16px;
 }
 
 
-li {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: background-color 0.3s ease;
-  }
-  
-  li:hover {
-  background-color: #f0f0f0;
-  }
+
   
