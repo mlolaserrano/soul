@@ -1924,28 +1924,8 @@ border-radius: 15px;
 
 
 
-/*Lista emociones
+/*Lista emociones*/
 
-
-img {
-border-radius: 5px;
-margin-right: 10px;
-}
-
-input[type="text"] {
-width: 200px;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
-margin-right: 10px;
-font-size: 16px;
-}
-
-input[type="file"] {
-padding: 10px;
-font-size: 14px;
-
-}*/
 #Lbotonimgen {
   background-color: #897694;
   color: white;
@@ -2019,6 +1999,14 @@ font-size: 16px;
 
 }
 
+#newTask input{
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
 
 
   
