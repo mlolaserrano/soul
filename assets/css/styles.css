@@ -1985,7 +1985,18 @@ font-size: 14px;
 
 }*/
 
-.Tareasl button {
+.ListaTareas{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.Tareasl {
 background-color: #4e4659;
 color: white;
 border: none;
