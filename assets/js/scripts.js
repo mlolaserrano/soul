@@ -236,7 +236,7 @@ myModal.addEventListener('shown.bs.modal', () => {
 // Pagina de Lista 
 
 const apiKey = '$2a$10$VNNriVDRpRdHOUYyp50cWekzgExfoG4lkWK2DFlFt7NZd9vxzce46'; //JSONbin apiKey https://jsonbin.io/app/app/api-keys
-const binId = '671c0f7b9fd07d161ce48d63'; //JSONbin ID https://jsonbin.io/app/account/summary
+const binId = '6733fc8fad19ca34f8c92e44'; //JSONbin ID https://jsonbin.io/app/account/summary
 const idImgur = '34defce0edb2505'; //Imgur API Key https://api.imgur.com/oauth2/addclient
 
 // Cargar tareas cuando se abre la página
