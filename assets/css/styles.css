@@ -1926,29 +1926,6 @@ border-radius: 15px;
 
 /*Lista emociones
 
-ul {
-list-style-type: none;
-padding: 0;
-margin: 20px 0;
-width: 100%;
-max-width: 400px;
-}
-
-li {
-background-color: #fff;
-border: 1px solid #ddd;
-border-radius: 5px;
-padding: 10px;
-margin-bottom: 10px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-transition: background-color 0.3s ease;
-}
-
-li:hover {
-background-color: #f0f0f0;
-}
 
 img {
 border-radius: 5px;
@@ -2043,3 +2020,21 @@ cursor: pointer;
 font-size: 16px;
 
 }
+
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+  background-color: #f0f0f0;
+  }
+  
