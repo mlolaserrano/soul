@@ -195,12 +195,41 @@ h3{
 }
 
 .login-link {
-  color: var(--button-color4);
   text-decoration: none;
+  background: none;
+  border-style: none;
 }
 
 .login-link:hover {
-  text-decoration: underline;
+  color: white;
+  background: var(--button-color3);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+
+.s-registro{
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.s-registro:hover {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-color4);
+  color: var(--text-color4);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .s-letra {
