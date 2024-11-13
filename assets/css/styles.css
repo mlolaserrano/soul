@@ -1926,21 +1926,6 @@ border-radius: 15px;
 
 /*Lista emociones
 
-.ListaTareas{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-h1 {
-color: #000000;
-}
-
-
 ul {
 list-style-type: none;
 padding: 0;
@@ -1996,7 +1981,7 @@ font-size: 14px;
 }
 
 
-.Tareasl {
+.Tareasl{
 background-color: #4e4659;
 color: white;
 border: none;
@@ -2013,6 +1998,14 @@ align-items: center;
 
 button:hover {
 background-color: #5e4d80;
+}
+
+#taskList ul{
+  list-style-type: none;
+padding: 0;
+margin: 20px 0;
+width: 100%;
+max-width: 400px;
 }
 
 #taskList span {
@@ -2033,7 +2026,7 @@ font-size: 1.5rem;
 }
 
 #taskImage{
-background-color: #46594a;
+background-color: #897694;
 color: white;
 border: none;
 padding: 10px 15px;
