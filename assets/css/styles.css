@@ -1964,7 +1964,7 @@ background-color: #5e4d80;
 }
 
 #taskList ul{
-  list-style-type: none;
+list-style-type: none;
 padding: 0;
 margin: 20px 0;
 width: 100%;
@@ -1998,6 +1998,12 @@ cursor: pointer;
 font-size: 16px;
 
 }
+
+#taskImage img{
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 
 #newTask {
   width: 180px;
