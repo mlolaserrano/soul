@@ -232,11 +232,10 @@ myModal.addEventListener('shown.bs.modal', () => {
 
 
 
-
 // Pagina de Lista 
 
-const apiKey = '$2a$10$khLoLUv1u9zYmep1Uwu1s.j08/4RN0e73/ZpEpCEmLCl4eY8wL3AW'; //JSONbin apiKey https://jsonbin.io/app/app/api-keys
-const binId = '6733fc8fad19ca34f8c92e44'; //JSONbin ID https://jsonbin.io/app/account/summary
+const apiKey = '$2a$10$8exKDN.yKKV2jBOb1zn5Feo/w42l679Lk.SzjA.9R0MUIgdpxufD.'; //JSONbin apiKey https://jsonbin.io/app/app/api-keys
+const binId = '670fad2facd3cb34a897fac4'; //JSONbin ID https://jsonbin.io/app/account/summary
 const idImgur = '34defce0edb2505'; //Imgur API Key https://api.imgur.com/oauth2/addclient
 
 // Cargar tareas cuando se abre la página
@@ -277,100 +276,100 @@ function displayTasks(tasks) {
 
 // Función para agregar una nueva tarea
 async function addTask() {
-  const newTask = document.getElementById('newTask').value;
-  const taskImage = document.getElementById('taskImage').files[0];
+    const newTask = document.getElementById('newTask').value;
+    const taskImage = document.getElementById('taskImage').files[0];
 
-  if (!newTask || !taskImage) {
-      alert('Por favor, ingresa una tarea y selecciona una imagen.');
-      return;
-  }
+    if (!newTask || !taskImage) {
+        alert('Por favor, ingresa una tarea y selecciona una imagen.');
+        return;
+    }
 
-  try {
-      // Subir imagen a Imgur
-      const formData = new FormData();
-      formData.append('image', taskImage);
+    try {
+        // Subir imagen a Imgur
+        const formData = new FormData();
+        formData.append('image', taskImage);
 
-      const imgurResponse = await axios.post('https://api.imgur.com/3/image', formData, {
-          headers: { Authorization: 'Client-ID ' + idImgur }
-      });
+        const imgurResponse = await axios.post('https://api.imgur.com/3/image', formData, {
+            headers: { Authorization: 'Client-ID ' + idImgur }
+        });
 
-      const imageUrl = imgurResponse.data.data.link;
+        const imageUrl = imgurResponse.data.data.link;
 
-      // Obtener tareas actuales
-      const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
-          headers: { 'X-Master-Key': apiKey }
-      });
-      const tasks = response.data.record.tasks;
+        // Obtener tareas actuales
+        const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
+            headers: { 'X-Master-Key': apiKey }
+        });
+        const tasks = response.data.record.tasks;
 
-      // Crear nueva tarea
-      const newTaskObject = {
-          id: tasks.length + 1,
-          task: newTask,
-          image_url: imageUrl,
-          checked: false
-      };
+        // Crear nueva tarea
+        const newTaskObject = {
+            id: tasks.length + 1,
+            task: newTask,
+            image_url: imageUrl,
+            checked: false
+        };
 
-      // Agregar la nueva tarea a la lista
-      tasks.push(newTaskObject);
+        // Agregar la nueva tarea a la lista
+        tasks.push(newTaskObject);
 
-      // Guardar las tareas actualizadas en JSONBin
-      await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
-          headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
-      });
+        // Guardar las tareas actualizadas en JSONBin
+        await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
+            headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
+        });
 
-      // Recargar la lista de tareas
-      loadTasks();
+        // Recargar la lista de tareas
+        loadTasks();
 
-  } catch (error) {
-      console.error('Error al agregar la tarea:', error);
-  }
+    } catch (error) {
+        console.error('Error al agregar la tarea:', error);
+    }
 }
 
 // Función para marcar/desmarcar tareas y eliminar si está "checked"
 async function toggleTask(taskId) {
-  try {
-      const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
-          headers: { 'X-Master-Key': apiKey }
-      });
-      let tasks = response.data.record.tasks;
+    try {
+        const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
+            headers: { 'X-Master-Key': apiKey }
+        });
+        let tasks = response.data.record.tasks;
 
-      // Encontrar la tarea y cambiar su estado
-      const task = tasks.find(t => t.id === taskId);
-      if (task) {
-          task.checked = !task.checked;
-      }
+        // Encontrar la tarea y cambiar su estado
+        const task = tasks.find(t => t.id === taskId);
+        if (task) {
+            task.checked = !task.checked;
+        }
 
-      // Guardar las tareas actualizadas en JSONBin
-      await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
-          headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
-      });
+        // Guardar las tareas actualizadas en JSONBin
+        await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
+            headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
+        });
 
-      // Recargar la lista de tareas
-      loadTasks();
-  } catch (error) {
-      console.error('Error al cambiar el estado de la tarea:', error);
-  }
+        // Recargar la lista de tareas
+        loadTasks();
+    } catch (error) {
+        console.error('Error al cambiar el estado de la tarea:', error);
+    }
 }
 
 // Función para eliminar una tarea
 async function deleteTask(taskId) {
-  try {
-      const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
-          headers: { 'X-Master-Key': apiKey }
-      });
-      let tasks = response.data.record.tasks;
+    try {
+        const response = await axios.get(`https://api.jsonbin.io/v3/b/${binId}`, {
+            headers: { 'X-Master-Key': apiKey }
+        });
+        let tasks = response.data.record.tasks;
 
-      // Filtrar la tarea que debe eliminarse
-      tasks = tasks.filter(t => t.id !== taskId);
+        // Filtrar la tarea que debe eliminarse
+        tasks = tasks.filter(t => t.id !== taskId);
 
-      // Guardar las tareas actualizadas en JSONBin
-      await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
-          headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
-      });
+        // Guardar las tareas actualizadas en JSONBin
+        await axios.put(`https://api.jsonbin.io/v3/b/${binId}`, { tasks }, {
+            headers: { 'Content-Type': 'application/json', 'X-Master-Key': apiKey }
+        });
 
-      // Recargar la lista de tareas
-      loadTasks();
-  } catch (error) {
-      console.error('Error al eliminar la tarea:', error);
-  }
+        // Recargar la lista de tareas
+        loadTasks();
+    } catch (error) {
+        console.error('Error al eliminar la tarea:', error);
+    }
 }
